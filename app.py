@@ -160,11 +160,12 @@ if structured_family_data:
                         chat_completion = client.chat.completions.create(
                             messages=messages_for_api,
                             # Using a larger, more capable model as requested
-                            model="llama3-70b-8192", 
+                            model="llama-3.3-70b-versatile", 
                             temperature=0.75, max_tokens=1024
                         )
                         response = chat_completion.choices[0].message.content
                         st.markdown(response)
                     except Exception as e:
                         st.error(f"Failed to get a response from the AI. Error: {e}")
+
 
