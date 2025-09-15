@@ -30,14 +30,11 @@ except Exception:
 def process_family_document(file_path="Family.docx"):
     """
     Loads text from a .docx file and splits it into individual person profiles.
-    This is the core of our retrieval system.
     """
     try:
         doc = docx.Document(file_path)
         full_text = "\n".join([para.text for para in doc.paragraphs])
-        # Split the text into profiles using the '--- PERSON START ---' delimiter
         profiles = full_text.split("--- PERSON START ---")
-        # Clean up profiles: remove empty strings and leading/trailing whitespace
         cleaned_profiles = [profile.strip() for profile in profiles if profile.strip()]
         return cleaned_profiles
     except FileNotFoundError:
@@ -47,30 +44,51 @@ def process_family_document(file_path="Family.docx"):
         st.error(f"An error occurred while reading the document: {e}")
         return []
 
-def find_relevant_profiles(user_prompt, profiles, max_profiles=5):
+def find_relevant_profiles_smart(user_prompt, profiles):
     """
-    Finds the most relevant person profiles based on the user's prompt.
-    This is a simple but effective keyword-based retrieval method.
+    An improved retrieval function that understands topics and synonyms.
+    This function now performs a two-pass search:
+    1. Topical Search: Looks for keywords related to professions or topics.
+    2. Name-based Search: Looks for specific names mentioned in the prompt.
     """
-    relevant_profiles = []
-    
-    # Extract potential names/keywords from the prompt.
-    # We look for capitalized words as they are likely names.
-    keywords = set([word.lower() for word in re.findall(r'\b[A-Z][a-zA-Z]*\b', user_prompt)] + user_prompt.lower().split())
+    prompt_lower = user_prompt.lower()
+    found_profiles = set()
 
-    for profile in profiles:
-        profile_lower = profile.lower()
-        # Score profiles based on how many keywords they contain
-        score = sum(1 for keyword in keywords if keyword in profile_lower)
-        
-        if score > 0:
-            relevant_profiles.append({"profile": profile, "score": score})
+    # --- Pass 1: Topical and Synonym Search ---
+    # We define keywords for important topics. This can be expanded.
+    topic_keywords = {
+        'doctor': ['doctor', 'doctors', 'mbbs', 'medicine', 'cardiologist'],
+        'engineer': ['engineer', 'engineers', 'iit', 'm.tech'],
+        'law': ['law', 'lawyer', 'judge'],
+        'business': ['business', 'startup', 'entrepreneur', 'bank', 'banker', 'chartered accountant'],
+        'travel': ['travel', 'travelled', 'countries', 'trip', 'tours']
+    }
 
-    # Sort profiles by score in descending order and take the top ones
-    sorted_profiles = sorted(relevant_profiles, key=lambda x: x["score"], reverse=True)
-    
-    # Return the text of the top N profiles
-    return [item["profile"] for item in sorted_profiles[:max_profiles]]
+    # Check if any of the prompt keywords match our topic list
+    for topic, synonyms in topic_keywords.items():
+        if any(synonym in prompt_lower for synonym in synonyms):
+            # If a topic is matched, find all profiles containing any of the synonyms
+            for profile in profiles:
+                profile_lower = profile.lower()
+                if any(synonym in profile_lower for synonym in synonyms):
+                    found_profiles.add(profile)
+
+    # --- Pass 2: Name-based Search ---
+    # Extracts capitalized words (likely names) from the prompt
+    mentioned_names = re.findall(r'\b[A-Z][a-z]+\b', user_prompt)
+    for name in mentioned_names:
+        name_lower = name.lower()
+        for profile in profiles:
+            # Check if the name appears near the 'Name:' field for accuracy
+            if f"name: {name_lower}" in profile.lower() or f"(alias {name_lower})" in profile.lower():
+                 found_profiles.add(profile)
+
+    # If after all searches, no profiles are found, return a default set (e.g., first 2)
+    if not found_profiles:
+        return profiles[:2] # Fallback to prevent sending an empty context
+
+    return list(found_profiles)
+
 
 # --- Main Application Logic ---
 all_profiles = process_family_document()
@@ -80,14 +98,9 @@ if all_profiles:
         with st.chat_message("user"):
             st.markdown(prompt)
 
-        # --- STEP 1: RETRIEVAL ---
+        # --- STEP 1: RETRIEVAL (Using the new smart function) ---
         with st.spinner("Searching for the right story..."):
-            relevant_context_list = find_relevant_profiles(prompt, all_profiles)
-            if not relevant_context_list:
-                # If no specific person is found, maybe provide a general context
-                # For simplicity now, we'll just use the first profile (head of family)
-                relevant_context_list.append(all_profiles[0])
-            
+            relevant_context_list = find_relevant_profiles_smart(prompt, all_profiles)
             relevant_context = "\n\n--- PERSON START ---\n".join(relevant_context_list)
         
         # --- STEP 2: GENERATION ---
@@ -117,7 +130,6 @@ if all_profiles:
             {"role": "user", "content": prompt}
         ]
 
-        # Call the Groq API
         try:
             with st.chat_message("assistant"):
                 with st.spinner("Crafting a reply..."):
