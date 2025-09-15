@@ -1,175 +1,108 @@
 import streamlit as st
-import docx
+from docx import Document
+import re
 from datetime import datetime
-from rapidfuzz import fuzz
 
-# -----------------------------
-# Profession Keywords
-# -----------------------------
-profession_keywords = {
-    "doctor": ["doctor", "dr.", "mbbs", "physician", "surgeon", "pediatrician", "medicine", "medical"],
-    "engineer": ["engineer", "iitian", "b.tech", "m.tech", "technology", "software", "mechanical"],
-    "lawyer": ["lawyer", "advocate", "legal", "llb"],
-    "ca": ["chartered accountant", "ca", "accountant", "cpa"]
-}
+# -------------------------
+# Load family.docx directly from repo
+# -------------------------
+@st.cache_data
+def load_family_doc(path="Family.docx"):
+    doc = Document(path)
+    text = "\n".join([p.text for p in doc.paragraphs if p.text.strip()])
+    return text
 
-# -----------------------------
-# Load and parse Family.docx
-# -----------------------------
-def load_family_data(docx_file):
-    doc = docx.Document(docx_file)
+# -------------------------
+# Parse profiles
+# -------------------------
+def parse_profiles(text):
     profiles = []
-    current_profile = {}
-
-    for para in doc.paragraphs:
-        text = para.text.strip()
-        if not text:
+    raw_profiles = text.split("\n\n")
+    for raw in raw_profiles:
+        if not raw.strip():
             continue
+        profile = {"full_text": raw}
+        # Extract fields
+        name_match = re.search(r"Name:\s*(.*)", raw, re.IGNORECASE)
+        alias_match = re.search(r"Alias:\s*(.*)", raw, re.IGNORECASE)
+        birth_match = re.search(r"Birth Year:\s*(\d{4})", raw, re.IGNORECASE)
 
-        if text.startswith("Name:"):
-            if current_profile:
-                profiles.append(current_profile)
-                current_profile = {}
+        if name_match:
+            profile["name"] = name_match.group(1).strip()
+        if alias_match:
+            profile["alias"] = alias_match.group(1).strip()
+        if birth_match:
+            profile["birth_year"] = int(birth_match.group(1))
 
-            current_profile["name"] = text.replace("Name:", "").strip()
-            current_profile["full_text"] = text
-
-        elif text.startswith("Alias:"):
-            current_profile["alias"] = text.replace("Alias:", "").strip()
-            current_profile["full_text"] += " " + text
-
-        elif text.startswith("Birth Year:"):
-            try:
-                current_profile["birth_year"] = int(text.replace("Birth Year:", "").strip())
-            except:
-                current_profile["birth_year"] = None
-            current_profile["full_text"] += " " + text
-
-        else:
-            current_profile["full_text"] += " " + text
-
-    if current_profile:
-        profiles.append(current_profile)
-
+        profiles.append(profile)
     return profiles
 
-# -----------------------------
+# -------------------------
 # Profession detection
-# -----------------------------
-def detect_profession(profile_text, profession):
-    keywords = profession_keywords.get(profession, [profession])
-    return any(kw in profile_text.lower() for kw in keywords)
+# -------------------------
+profession_keywords = {
+    "doctor": ["doctor", "dr", "medicine", "surgeon"],
+    "engineer": ["engineer", "engineering", "software", "mechanical"],
+    "teacher": ["teacher", "professor", "lecturer"],
+}
 
-# -----------------------------
-# Age ranking
-# -----------------------------
-def rank_by_age(profiles):
-    available = [p for p in profiles if p.get('birth_year')]
-    missing = [p for p in profiles if not p.get('birth_year')]
+def detect_profession(text, target):
+    for kw in profession_keywords.get(target, []):
+        if kw.lower() in text.lower():
+            return True
+    return False
 
-    sorted_members = sorted(available, key=lambda x: x['birth_year'])  # oldest first
-
-    result = []
-    for member in sorted_members:
-        age = datetime.now().year - member['birth_year']
-        result.append(f"- **{member['alias']}** ({member.get('name','')}) → Born {member['birth_year']}, approx. {age} years old")
-
-    if missing:
-        result.append("\n⚠️ Birth year not available for: " + ", ".join(m['alias'] for m in missing))
-
-    return "\n".join(result)
-
-# -----------------------------
-# Fuzzy Search
-# -----------------------------
-def search_profiles(profiles, query, threshold=60):
-    results = []
-    for p in profiles:
-        score = fuzz.partial_ratio(query.lower(), p['full_text'].lower())
-        if score >= threshold:
-            results.append((score, p))
-    results.sort(reverse=True, key=lambda x: x[0])
-    return [p for _, p in results]
-
-# -----------------------------
-# Analytical brain
-# -----------------------------
+# -------------------------
+# Handle analytical queries
+# -------------------------
 def handle_analytical_question(prompt, profiles):
     prompt_lower = prompt.lower()
     target_group_keyword = None
 
-    # Detect if prompt mentions a known profession
     for group in profession_keywords.keys():
         if group in prompt_lower:
             target_group_keyword = group
             break
 
-    # Case 1: Profession query
-    if target_group_keyword:
+    if target_group_keyword:  # Profession query
         group_members = [
-            p for p in profiles
-            if detect_profession(p['full_text'], target_group_keyword)
+            p for p in profiles if detect_profession(p['full_text'], target_group_keyword)
         ]
-
         if not group_members:
-            return f"⚠️ I couldn't find anyone explicitly described as a **{target_group_keyword}** in the family."
-
-        result = [f"- **{p['alias']}** ({p.get('name','')})" for p in group_members]
+            return f"⚠️ No family members identified as **{target_group_keyword}**."
+        result = [f"- **{p.get('alias','')}** ({p.get('name','')})" for p in group_members]
         return f"Here are the family members identified as **{target_group_keyword.title()}s**:\n" + "\n".join(result)
 
-    # Case 2: Age-related queries
-    if any(keyword in prompt_lower for keyword in ["rank", "list", "oldest", "youngest", "how many"]):
-        group_members = [p for p in profiles if p.get('birth_year')]
+    if any(k in prompt_lower for k in ["oldest", "youngest", "rank", "list", "how many"]):
+        group_members = [p for p in profiles if p.get("birth_year")]
         if not group_members:
-            return "⚠️ No members have valid birth years."
+            return "⚠️ No valid birth years found."
 
         if "how many" in prompt_lower:
-            return f"There are **{len(group_members)}** members with available birth year information."
+            return f"There are **{len(group_members)}** members with known birth years."
 
-        return rank_by_age(group_members)
+        sorted_members = sorted(group_members, key=lambda x: x["birth_year"])
+        lines = [
+            f"{i+1}. {p.get('alias','')} ({p.get('name','')}), born {p['birth_year']}"
+            for i, p in enumerate(sorted_members)
+        ]
+        return "\n".join(lines)
 
-    # Case 3: Search query
-    results = search_profiles(profiles, prompt)
-    if results:
-        result = [f"- **{p['alias']}** ({p.get('name','')})" for p in results[:5]]
-        return f"Closest matches to your query:\n" + "\n".join(result)
-
-    # No match
     return None
 
-# -----------------------------
-# Creative brain (fallback)
-# -----------------------------
-def creative_response(prompt):
-    return f"✨ I'm not sure from the data, but here's a fun thought about your query: *{prompt}*."
-
-# -----------------------------
-# Chatbot
-# -----------------------------
-def chatbot_response(prompt, profiles):
-    analytical_answer = handle_analytical_question(prompt, profiles)
-    if analytical_answer:
-        return analytical_answer
-    return creative_response(prompt)
-
-# -----------------------------
+# -------------------------
 # Streamlit UI
-# -----------------------------
-def main():
-    st.set_page_config(page_title="Family Chatbot", page_icon="👨‍👩‍👧‍👦", layout="centered")
-    st.title("👨‍👩‍👧‍👦 Family Chatbot")
+# -------------------------
+st.title("👨‍👩‍👧‍👦 Family Chatbot")
 
-    uploaded_file = st.file_uploader("Upload your Family.docx", type="docx")
+# Load once
+family_text = load_family_doc("Family.docx")
+profiles = parse_profiles(family_text)
 
-    if uploaded_file:
-        profiles = load_family_data(uploaded_file)
-        st.success(f"Loaded {len(profiles)} family profiles!")
+query = st.text_input("Ask about your family:")
 
-        user_input = st.text_input("Ask something about your family:")
-        if st.button("Ask"):
-            if user_input:
-                response = chatbot_response(user_input, profiles)
-                st.markdown(response)
-
-if __name__ == "__main__":
-    main()
+if query:
+    answer = handle_analytical_question(query, profiles)
+    if not answer:  # fallback simple
+        answer = "🤔 I don’t have a structured answer. Try rephrasing!"
+    st.markdown(answer)
