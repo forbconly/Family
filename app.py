@@ -43,22 +43,23 @@ def parse_family_document(file_path="Family.docx"):
             person_data = {'full_text': profile_str.strip()}
             
             # Extract Name and Alias
-            name_match = re.search(r"Name:\s*(.*?)\s*\(alias\s*(.*?)\)", profile_str)
+            name_match = re.search(r"Name:\s*(.*?)\s*\(alias\s*(.*?)\)", profile_str, re.IGNORECASE)
             if name_match:
                 person_data['name'] = name_match.group(1).strip()
                 person_data['alias'] = name_match.group(2).strip()
             else:
-                name_match_simple = re.search(r"Name:\s*(.*)", profile_str)
+                name_match_simple = re.search(r"Name:\s*(.*)", profile_str, re.IGNORECASE)
                 if name_match_simple:
                     person_data['name'] = name_match_simple.group(1).strip()
-                    person_data['alias'] = person_data['name'].split()[0] # Default alias to first name
+                    person_data['alias'] = person_data['name'].split()[0]
 
-            # Extract Birth Year/Date
-            born_match = re.search(r"Born:\s*.*?(\d{4})", profile_str)
+            # *** THE KEY FIX IS HERE: A much more flexible date finder ***
+            # It now looks for multiple patterns like "Born on", "Born in year", "was born on", etc.
+            born_match = re.search(r"(?:born on|born in year|born in|was born on|born date:)\s*.*?(\d{4})", profile_str, re.IGNORECASE)
             if born_match:
                 person_data['birth_year'] = int(born_match.group(1))
             else:
-                person_data['birth_year'] = None
+                person_data['birth_year'] = None # Explicitly set to None if not found
 
             if person_data.get('name'):
                 structured_profiles.append(person_data)
@@ -70,43 +71,52 @@ def parse_family_document(file_path="Family.docx"):
         return []
 
 # --- "Analyst Brain" for Factual Questions ---
-def handle_ranking_question(prompt, profiles):
+def handle_analytical_question(prompt, profiles):
     """
-    Handles data-driven questions like ranking and listing.
+    Handles data-driven questions like ranking, listing, and counting.
     Returns a formatted string response if the question is a match, otherwise None.
     """
     prompt_lower = prompt.lower()
     
-    # Target keyword for ranking: 'engineer', 'doctor', etc.
-    target_group = None
-    if "engineer" in prompt_lower:
-        target_group = "engineer"
-    elif "doctor" in prompt_lower:
-        target_group = "doctor"
+    # Identify the target group (e.g., 'engineer', 'doctor', 'family member')
+    target_group_keyword = "family member" # Default
+    known_groups = ['engineer', 'doctor', 'iitian', 'lawyer', 'ca']
+    for group in known_groups:
+        if group in prompt_lower:
+            target_group_keyword = group
+            break
 
-    if ("rank" in prompt_lower or "list" in prompt_lower or "oldest" in prompt_lower or "youngest" in prompt_lower) and target_group:
+    # Check for analytical keywords
+    if any(keyword in prompt_lower for keyword in ["rank", "list", "oldest", "youngest", "how many"]):
         
-        # 1. Filter for the target group
-        group_members = [
-            p for p in profiles 
-            if target_group in p['full_text'].lower() and p['birth_year'] is not None
-        ]
+        # Filter for the target group
+        if target_group_keyword == "family member":
+            group_members = [p for p in profiles if p.get('birth_year')]
+        else:
+            group_members = [
+                p for p in profiles 
+                if target_group_keyword in p['full_text'].lower() and p.get('birth_year')
+            ]
         
         if not group_members:
-            return f"I couldn't find any members of the '{target_group}' group with a recorded birth year to rank."
+            return f"I couldn't find anyone in the '{target_group_keyword}' category with a recorded birth year to create a list."
 
-        # 2. Sort them
-        sort_order = "youngest" in prompt_lower
-        sorted_members = sorted(group_members, key=lambda x: x['birth_year'], reverse=sort_order)
+        # Handle "how many"
+        if "how many" in prompt_lower:
+            return f"There are **{len(group_members)}** members in the '{target_group_keyword}' category that I can identify."
+
+        # Handle sorting
+        sort_order_reverse = "oldest" in prompt_lower or "rank" in prompt_lower
+        sorted_members = sorted(group_members, key=lambda x: x['birth_year'], reverse=sort_order_reverse)
         
-        # 3. Format the response
-        response = f"Of course! Here is a ranking of the family's **{target_group}s** by age:\n"
-        rank_list = []
+        # Format the response
+        title = f"Here is a list of the family's **{target_group_keyword}s**, ranked by age:" if "rank" in prompt_lower else "Here is the list you requested:"
+        rank_list = [title]
         for member in sorted_members:
             age = datetime.now().year - member['birth_year']
             rank_list.append(f"- **{member['alias']}** (Born {member['birth_year']}, approx. {age} years old)")
         
-        return "\n".join([response] + rank_list)
+        return "\n".join(rank_list)
         
     return None # Indicates this function couldn't handle the prompt
 
@@ -120,45 +130,37 @@ if structured_family_data:
 
         # --- Intelligent Question Routing ---
         with st.chat_message("assistant"):
-            # First, try the Analyst Brain for factual questions
-            factual_answer = handle_ranking_question(prompt, structured_family_data)
+            analytical_answer = handle_analytical_question(prompt, structured_family_data)
             
-            if factual_answer:
-                st.markdown(factual_answer)
+            if analytical_answer:
+                st.markdown(analytical_answer)
             else:
-                # If it's not a factual question, use the Creative AI Brain (RAG)
+                # Fallback to the Creative AI Brain (RAG) for narrative questions
                 with st.spinner("Let me think of a good story..."):
                     # Simple retrieval: find profiles matching any capitalized name in the prompt
                     mentioned_names = re.findall(r'\b[A-Z][a-z]+\b', prompt)
                     relevant_profiles_text = [
                         p['full_text'] for p in structured_family_data 
                         if any(name.lower() in p['name'].lower() for name in mentioned_names)
-                    ]
-                    if not relevant_profiles_text: # Fallback if no names mentioned
-                        relevant_profiles_text = [p['full_text'] for p in structured_family_data[:3]]
+                    ] if mentioned_names else [p['full_text'] for p in structured_family_data[:5]] # Fallback
                     
                     context = "\n\n--- PERSON START ---\n".join(relevant_profiles_text)
                     
-                    system_prompt = {
-                        "role": "system",
-                        "content": f"""You are a witty, charming, and humorous AI assistant for the Gupta family. 
-                        Your personality is that of a fun family insider who loves telling stories.
-                        You must answer questions based ONLY on the provided context below.
-                        ALWAYS refer to people by their pet name (alias). Be diplomatic about subjective questions.
+                    system_prompt = { "role": "system", "content": f"""You are a witty, charming, and humorous AI assistant for the Gupta family. Your personality is that of a fun family insider who loves telling stories. You must answer questions based ONLY on the provided context below. ALWAYS refer to people by their pet name (alias). Be diplomatic about subjective questions.
 
-                        Relevant Context:
-                        ---
-                        {context}
-                        ---
-                        """
-                    }
+                    Relevant Context:
+                    ---
+                    {context}
+                    ---
+                    """}
                     
                     messages_for_api = [system_prompt, {"role": "user", "content": prompt}]
                     
                     try:
                         chat_completion = client.chat.completions.create(
                             messages=messages_for_api,
-                            model="openai/gpt-oss-120b",
+                            # Using a larger, more capable model as requested
+                            model="llama3-70b-8192", 
                             temperature=0.75, max_tokens=1024
                         )
                         response = chat_completion.choices[0].message.content
