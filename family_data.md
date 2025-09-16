@@ -20,7 +20,7 @@ Personality: Very jolly, holds command in conversation, respected for his wisdom
 
 --- PERSON START --- 
 Name: Shanti Devi 
-Born: Approx. 1945 (4 years younger than husband) 
+Born: 1945 
 Relationships:
 •	Spouse of: Hamir Mal Gupta
 •	Mother (Mummy) of: Laxmi, Nirmala, Indu, Hansraj, Kamlesh, Hemant
@@ -103,7 +103,7 @@ Personality: Very adaptive, has an excellent memory for details, no matter how o
 
 --- PERSON START --- 
 Name: Mahesh Khandelwal 
-Born: December 6, 1962 (official: Feb 1, 1962)
+Born: December 6, 1962
 Location: Anta 
 Relationships:
 •	Spouse of: Nirmala
@@ -869,4 +869,5 @@ Anniversary: December 9, 2016
 Name: Ina & Ankit
 Anniversary: June 29, 2018
 ---Person Ends---
+
 
