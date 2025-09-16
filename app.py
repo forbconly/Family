@@ -3,6 +3,7 @@ import os
 import re
 import random
 from datetime import datetime, timedelta
+from groq import Groq
 from dotenv import load_dotenv
 
 # Load environment variables
@@ -202,5 +203,6 @@ with tab2:
                     st.success("Correct! You're a family expert!")
                 else:
                     st.error(f"Not quite! The correct answer was: {q['correct_answer']}")
+
 
 
