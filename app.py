@@ -59,8 +59,8 @@ def get_groq_response(client, user_query, family_info):
 
 # Set up the Streamlit page
 st.set_page_config(page_title="Family Chatbot", page_icon="👨‍👩‍👧‍👦")
-st.title("🤖 The Family AI Chatbot")
-st.write("Ask me anything about the family!")
+st.title("🤖 Aaradhana Family AI Chatbot")
+st.write("Ask me anything about our family!")
 
 # Load data and initialize Groq client
 family_data = load_family_data()
@@ -95,3 +95,4 @@ if prompt := st.chat_input("What do you want to know?"):
     
     # Add assistant response to chat history
     st.session_state.messages.append({"role": "assistant", "content": response})
+
