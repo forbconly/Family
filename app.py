@@ -3,8 +3,6 @@ import os
 import re
 import random
 from datetime import datetime, timedelta
-from groq import Groq
-from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
@@ -21,10 +19,10 @@ def load_family_data(filepath="family_data.md"):
         st.stop()
         return None
 
-# --- "Next Upcoming Event" Feature (MODIFIED) ---
+# --- "Next Upcoming Event" Feature (UPGRADED) ---
 
 def get_next_event_message(family_data):
-    """Finds the single closest upcoming birthday or anniversary."""
+    """Finds the single closest upcoming birthday or anniversary with flexible date parsing."""
     today = datetime.now()
     next_event = None
     smallest_delta = timedelta(days=367)
@@ -38,36 +36,44 @@ def get_next_event_message(family_data):
         
         name = name_match.group(1).strip()
         
-        # ## MODIFIED SECTION: Now checks for both Born and Anniversary tags ##
         event_types = [("Born", "birthday"), ("Anniversary", "anniversary")]
         
         for tag, event_name in event_types:
-            date_match = re.search(fr'{tag}:\s*(.*)', block)
+            date_match = re.search(fr'{tag}:\s*([A-Za-z]+\s\d+,?\s?\d*)', block) # Regex to find dates like "Month Day, Year" or "Month Day"
             if date_match:
                 date_str = date_match.group(1).strip()
+                event_date = None
+                has_year = False
+                
+                # ## UPGRADED SECTION: Tries to read date with and without a year ##
                 try:
                     event_date = datetime.strptime(date_str, '%B %d, %Y')
-                    
-                    # Calculate the next occurrence
-                    next_occurrence = event_date.replace(year=today.year)
-                    if next_occurrence < today:
-                        next_occurrence = next_occurrence.replace(year=today.year + 1)
-                    
-                    # Check if this is the closest event so far
-                    delta = next_occurrence - today
-                    if 0 <= delta.days < smallest_delta.days:
-                        smallest_delta = delta
-                        year_diff = next_occurrence.year - event_date.year
-                        next_event = {
-                            "name": name, 
-                            "year_diff": year_diff, 
-                            "date": next_occurrence, 
-                            "delta": delta,
-                            "type": event_name
-                        }
+                    has_year = True
                 except ValueError:
-                    continue # Ignore malformed dates
-        # ## END OF MODIFIED SECTION ##
+                    try:
+                        event_date = datetime.strptime(date_str, '%B %d')
+                        has_year = False
+                    except ValueError:
+                        continue # Skip if format is completely wrong
+                # ## END OF UPGRADED SECTION ##
+
+                # Calculate the next occurrence
+                next_occurrence = event_date.replace(year=today.year)
+                if next_occurrence < today:
+                    next_occurrence = next_occurrence.replace(year=today.year + 1)
+                
+                # Check if this is the closest event so far
+                delta = next_occurrence - today
+                if 0 <= delta.days < smallest_delta.days:
+                    smallest_delta = delta
+                    year_diff = next_occurrence.year - event_date.year if has_year else None
+                    next_event = {
+                        "name": name, 
+                        "year_diff": year_diff, 
+                        "date": next_occurrence, 
+                        "delta": delta,
+                        "type": event_name
+                    }
 
     if not next_event:
         return ""
@@ -76,14 +82,17 @@ def get_next_event_message(family_data):
     event_date_str = next_event['date'].strftime('%B %d')
     delta_days = next_event['delta'].days
     
-    if delta_days == 0:
-        day_info = "is today!"
-    elif delta_days == 1:
-        day_info = "is tomorrow!"
-    else:
-        day_info = f"is in {delta_days} days"
+    if delta_days == 0: day_info = "is today!"
+    elif delta_days == 1: day_info = "is tomorrow!"
+    else: day_info = f"is in {delta_days} days"
     
-    event_details = f"({next_event['year_diff']})" if next_event['type'] == 'birthday' else f"({next_event['year_diff']} years)"
+    # Only show age/year count if the year was present in the data
+    event_details = ""
+    if next_event['year_diff'] is not None:
+        if next_event['type'] == 'birthday':
+            event_details = f"({next_event['year_diff']})"
+        else:
+            event_details = f"({next_event['year_diff']} years)"
 
     message = (f"🗓️ Next Event: **{next_event['name']}'s** {next_event['type']} {event_details} "
                f"{day_info} on **{event_date_str}**.")
@@ -185,7 +194,7 @@ with tab1:
 with tab2:
     st.header("How well do you know the family?")
     if 'quiz_facts' not in st.session_state:
-        st.session_state.quiz_facts = parse_data_for_quiz(family_data)
+        st.session_state.quiz_facts = parse_data_for_.quiz(family_data)
     
     if st.button("Start New Game / Next Question"):
         st.session_state.quiz_question = generate_quiz_question(st.session_state.quiz_facts)
@@ -203,7 +212,3 @@ with tab2:
                     st.success("Correct! You're a family expert!")
                 else:
                     st.error(f"Not quite! The correct answer was: {q['correct_answer']}")
-
-
-
-
