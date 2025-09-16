@@ -128,7 +128,7 @@ def get_groq_response(client, messages):
     """Gets a response from the Groq API."""
     try:
         chat_completion = client.chat.completions.create(
-            messages=messages, model="llama-3.3-70b-versatile")
+            messages=messages, model="llama-3.1-8b-instant")
         return chat_completion.choices[0].message.content
     except Exception as e:
         st.error(f"An error occurred with the API: {e}")
@@ -208,3 +208,4 @@ with tab2:
                     st.success("Correct! You're a family expert!")
                 else:
                     st.error(f"Not quite! The correct answer was: {q['correct_answer']}")
+
