@@ -1,6 +1,6 @@
 --- PERSON START --- 
 Name: Hamir Mal Gupta 
-Born: 4th March 1941 
+Born: March 4, 1941 
 Location: Balakhera village, Kota district, Rajasthan 
 Relationships:
 •	Spouse of: Shanti Devi
@@ -35,7 +35,8 @@ Personality: A faithful and dedicated home maker.
 
 --- PERSON START --- 
 Name: Laxmi Gupta (alias Munni) 
-Born: [Date Unknown], in Balakhera 
+Born: [Date Unknown]
+Location: Balakhera 
 Relationships:
 •	Eldest daughter of: Hamir Mal Gupta and Shanti Devi
 •	Spouse of: Kailash Chand Gupta (Married in 1977)
@@ -56,7 +57,8 @@ Personality: Very adaptive.
 
 --- PERSON START --- 
 Name: Kailash Chand Gupta 
-Born: [Date Unknown], in Kota 
+Born: January 17
+Location: Kota 
 Relationships:
 •	Spouse of: Laxmi Gupta
 •	Father (Papa) of: Priyanka, Himanshu, Yamini
@@ -78,7 +80,8 @@ Personality: Enjoys chilling with friends, very conversant with Indian civil law
 
 --- PERSON START --- 
 Name: Nirmala Khandelwal 
-Born: 19th June 1964, in Balakhera 
+Born: June 19, 1964
+Location: Balakhera 
 Relationships:
 •	Second daughter of: Hamir Mal Gupta and Shanti Devi
 •	Spouse of: Mahesh Khandelwal (Married in 1984)
@@ -100,7 +103,8 @@ Personality: Very adaptive, has an excellent memory for details, no matter how o
 
 --- PERSON START --- 
 Name: Mahesh Khandelwal 
-Born: 6th December 1962 (official: 1st Feb 1962), in Anta 
+Born: December 6, 1962 (official: Feb 1, 1962)
+Location: Anta 
 Relationships:
 •	Spouse of: Nirmala
 •	Father (Papa) of: Vineet, Ruhi, Juhi
@@ -122,7 +126,8 @@ Personality: Very polite, soft-spoken, and has lived a life of great simplicity.
 
 --- PERSON START --- 
 Name: Indu Khandelwal (alias Guddi) 
-Born: 5th October 1965, in Kota 
+Born: October 5, 1965
+Location: Kota 
 Relationships:
 •	Third daughter of: Hamir Mal Gupta and Shanti Devi
 •	Spouse of: Narendra Khandelwal (Married on 4th June 1990)
@@ -162,7 +167,7 @@ Personality: Very jolly and smiling, soft-spoken, easy-going, makes friends very
 
 --- PERSON START --- 
 Name: Hansraj Gupta 
-Born: 6th January 1969 
+Born: January 6, 1969 
 Relationships:
 •	Eldest son of: Hamir Mal and Shanti Devi
 •	Spouse of: Archana Gupta (Married in 1996)
@@ -183,7 +188,8 @@ Personality: Strong personality, very hard-wired, very social and outgoing. Scep
 
 --- PERSON START --- 
 Name: Archana Gupta 
-Born: 31st August, in Jaipur 
+Born: August 31
+Location: Jaipur 
 Relationships:
 •	Spouse of: Hansraj Gupta
 •	Mother (Mummy) of: Mohnish, Shubhi
@@ -200,7 +206,7 @@ Personality: Very friendly and happening, just like Hansraj.
 
 --- PERSON START --- 
 Name: Kamlesh Khandelwal 
-Born: 23rd September 
+Born: September 23 
 Relationships:
 •	Second son of: Hamir Mal Gupta and Shanti Devi
 •	Spouse of: Savita Khandelwal (Married in 1997)
@@ -219,7 +225,8 @@ Personality: Very accommodative, "keep it simple" attitude, smiling, and a very 
 
 --- PERSON START --- 
 Name: Savita Khandelwal 
-Born: 16th December [Year Unknown], in Jaipur 
+Born: December 16
+Location: Jaipur 
 Relationships:
 •	Spouse of: Kamlesh Khandelwal
 •	Mother (Mummy) of: Priyansh, Nimit
@@ -238,7 +245,7 @@ Personality: Full of life, extremely outgoing, a party person. Loves kitty parti
 
 --- PERSON START --- 
 Name: Hemant Gupta 
-Born: 12th July 
+Born: July 12 
 Relationships:
 •	Youngest son of: Hamir Mal Gupta and Shanti Devi
 •	Spouse of: Gayatri Gupta
@@ -256,7 +263,7 @@ Personality: Hard-working due to the nature of his job.
 
 --- PERSON START --- 
 Name: Gayatri Gupta 
-Born: 18th February 
+Born: February 18 
 Relationships:
 •	Spouse of: Hemant Gupta
 •	Mother (Mummy) of: Kaira, Vihaan
@@ -273,7 +280,8 @@ Personality: Hard-working at the hospital and at home, quick-witted, very homely
 
 --- PERSON START --- 
 Name: Priyanka Gupta (alias Sweety) 
-Born: 15th June 1978, in Kota 
+Born: June 15, 1978
+Location: Kota 
 Relationships:
 •	Eldest daughter of: Laxmi and Kailash Chand Gupta
 •	Granddaughter (Natin) of: Hamir Mal and Shanti Devi
@@ -295,7 +303,8 @@ Personality: Known as the most beautiful among her siblings and cousins, very fr
 
 --- PERSON START --- 
 Name: Ashish Gupta 
-Born: 23rd November 1976, in Jaipur
+Born: November 23, 1976
+Location: Jaipur
 Relationships:
 •	Spouse of: Priyanka Gupta
 •	Father (Papa) of: Raghav, Nandini
@@ -314,7 +323,8 @@ Personality: Very handsome and humorous, very resourceful with a vast network of
 
 --- PERSON START --- 
 Name: Himanshu Gupta 
-Born: 11th November 1979, in Kota 
+Born: November 11, 1979
+Location: Kota 
 Relationships:
 •	Son of: Laxmi and Kailash Chand Gupta
 •	Grandson (Nati) of: Hamir Mal and Shanti Devi
@@ -336,7 +346,7 @@ Personality: A smart guy, rumoured to have had many girlfriends in college, used
 
 --- PERSON START --- 
 Name: Swati Gupta 
-Born: 27th August [Year Unknown] 
+Born: August 27 
 Relationships:
 •	Spouse of: Himanshu Gupta
 •	Mother (Mummy) of: Shantanu, Shanaya
@@ -350,7 +360,7 @@ Personality: Very talented and participates in cultural events in her society, c
 
 --- PERSON START --- 
 Name: Yamini (alias Mini) 
-Born: 8th November 1983 
+Born: November 8, 1983 
 Relationships:
 •	Youngest daughter of: Laxmi and Kailash Chand Gupta
 •	Granddaughter (Natin) of: Hamir Mal and Shanti Devi
@@ -371,7 +381,8 @@ Personality: Very versatile, talented, and multi-dimensional, with a good sense 
 
 --- PERSON START --- 
 Name: Yogesh Soni 
-Born: 3rd August 1983, in Kota 
+Born: August 3, 1983
+Location: Kota 
 Relationships:
 •	Spouse of: Yamini Gupta
 •	Father (Papa) of: Ananya
@@ -390,7 +401,8 @@ Personality: Quick-witted, loves partying with friends, his jokes are often link
  
 --- PERSON START --- 
 Name: Vineet Khandelwal (alias Vicky) 
-Born: 16th June 1985, in Kota 
+Born: June 16, 1985
+Location: Kota 
 Relationships:
 •	Eldest son of: Nirmala and Mahesh Khandelwal
 •	Grandson (Nati) of: Hamir Mal and Shanti Devi
@@ -412,7 +424,8 @@ Personality: Extremely quick-witted, practical, and realistic. Very handsome, ta
 
 --- PERSON START --- 
 Name: Nimisha Khandelwal 
-Born: 16th December 1990, in Mumbai 
+Born: December 16, 1990
+Location: Mumbai 
 Relationships:
 •	Spouse of: Vineet Khandelwal
 •	Mother (Mummy) of: Vaidik, Naitik
@@ -429,7 +442,8 @@ Personality: Very friendly, jolly, and always smiling. Extremely calm and compos
 
 --- PERSON START --- 
 Name: Ruhi (alias Baby) 
-Born: 6th December 1986, in Kota 
+Born: December 6, 1986
+Location: Kota 
 Relationships:
 •	Daughter of: Nirmala and Mahesh Khandelwal
 •	Granddaughter (Natin) of: Hamir Mal and Shanti Devi
@@ -450,7 +464,8 @@ Personality: Happening in nature, similar to her mother. A great home maker.
 
 --- PERSON START --- 
 Name: Deepak Gupta 
-Born: 11th March 1986, in Varanasi 
+Born: March 11, 1986
+Location: Varanasi 
 Relationships:
 •	Spouse of: Ruhi Khandelwal
 •	Father (Papa) of: Daiwik, Rudransh
@@ -465,7 +480,8 @@ Personality: A typical IT engineer. A gentleman and a family person. Calm, compo
 
 --- PERSON START --- 
 Name: Juhi (alias Peppy) 
-Born: 9th July 1989, in Anta 
+Born: July 9, 1989
+Location: Anta 
 Relationships:
 •	Youngest daughter of: Nirmala and Mahesh Khandelwal
 •	Granddaughter (Natin) of: Hamir Mal and Shanti Devi
@@ -483,7 +499,8 @@ Personality: Took a spiritual path, very calm and soft-spoken. Likable and frien
 
 --- PERSON START --- 
 Name: Shubham Mamodia 
-Born: 18th August 1989, in Sri Madhopur 
+Born: August 18, 1989
+Location: Sri Madhopur 
 Relationships:
 •	Spouse of: Juhi Khandelwal
 •	Damadji of: Nirmala and Mahesh Khandelwal 
@@ -496,7 +513,7 @@ Key Facts:
 
 --- PERSON START --- 
 Name: Ina Khandelwal 
-Born: 15th April 1991 
+Born: April 15, 1991 
 Relationships:
 •	Daughter of: Indu and Narendra Khandelwal
 •	Granddaughter (Natin) of: Hamir Mal and Shanti Devi
@@ -514,7 +531,7 @@ Personality: [No specific personality traits mentioned in the original document]
 
 --- PERSON START --- 
 Name: Ankit Khandelwal 
-Born: [Date Unknown] 
+Born: January 17
 Relationships:
 •	Spouse of: Ina Khandelwal
 •	Father (Papa) of: Atharva
@@ -527,7 +544,8 @@ Personality: [No specific personality traits mentioned in the original document]
 
 --- PERSON START --- 
 Name: Ashwin Khandelwal (alias Manu) 
-Born: 23rd April 1997, in Kota 
+Born: April 23, 1997
+Location: Kota 
 Relationships:
 •	Son of: Indu and Narendra Khandelwal
 •	Grandson (Nati) of: Hamir Mal and Shanti Devi
@@ -546,7 +564,8 @@ Personality: Cool-headed with a great sense of humor. Loves to sport a beard, in
 
 --- PERSON START --- 
 Name: Priyansh Khandelwal (alias Pikul) 
-Born: 5th March 1998, in Kota 
+Born: March 5, 1998
+Location: Kota 
 Relationships:
 •	Elder son of: Kamlesh and Savita Khandelwal
 •	Grandson (Pota) of: Hamir Mal and Shanti Devi
@@ -564,7 +583,8 @@ Personality: Was very naughty in childhood but is now very intelligent, intellec
 
 --- PERSON START --- 
 Name: Mohnish Gupta (alias Mikul) 
-Born: 22nd May 1998, in Kota 
+Born: May 22, 1998
+Location: Kota 
 Relationships:
 •	Son of: Hansraj and Archana Gupta
 •	Grandson (Pota) of: Hamir Mal and Shanti Devi
@@ -581,7 +601,8 @@ Personality: Intelligent but not as studious as Pikul. Has a practical and no-no
 
 --- PERSON START --- 
 Name: Nimit Khandelwal 
-Born: 14th November 2003, in Kota 
+Born: November 14, 2003
+Location: Kota 
 Relationships:
 •	Younger son of: Kamlesh and Savita Khandelwal
 •	Grandson (Pota) of: Hamir Mal and Shanti Devi
@@ -598,7 +619,8 @@ Personality: Extremely intelligent and sincere. A multi-talented prodigy. Unlike
 
 --- PERSON START --- 
 Name: Kaira Khandelwal (alias Diya) 
-Born: 3rd July 2004, in Kota 
+Born: July 3, 2004
+Location: Kota 
 Relationships:
 •	Daughter of: Hemant and Gayatri Gupta
 •	Granddaughter (Poti) of: Hamir Mal and Shanti Devi
@@ -614,7 +636,8 @@ Personality: Very studious and intelligent, a promising prodigy.
 
 --- PERSON START --- 
 Name: Shubhi Gupta (alias Kanchi) 
-Born: 25th September, in Kota 
+Born: September 25
+Location: Kota 
 Relationships:
 •	Daughter of: Hansraj and Archana Gupta
 •	Granddaughter (Poti) of: Hamir Mal and Shanti Devi
@@ -628,7 +651,8 @@ Personality: A promising prodigy, perhaps a future Supreme Court Lawyer or Judge
 
 --- PERSON START --- 
 Name: Vihaan Gupta (alias Kanha) 
-Born: 19th August 2014, in Gurgaon 
+Born: August 19, 2014
+Location: Gurgaon 
 Relationships:
 •	Son of: Hemant and Gayatri Gupta
 •	Grandson (Pota) of: Hamir Mal and Shanti Devi
@@ -639,7 +663,8 @@ Personality: Among the naughtiest kids in the family.
 
 --- PERSON START --- 
 Name: Raghav Gupta 
-Born: 18th January 2005, in Jaipur 
+Born: January 18, 2005
+Location: Jaipur 
 Relationships:
 •	Son of: Priyanka and Ashish Gupta
 •	Great-grandson (Par-nati) of: Hamir Mal and Shanti Devi
@@ -653,7 +678,8 @@ Personality: Very decent and obedient.
 
 --- PERSON START --- 
 Name: Nandini Gupta (alias Gudda) 
-Born: 27th October 2009, in Jaipur 
+Born: October 27, 2009
+Location: Jaipur 
 Relationships:
 •	Daughter of: Priyanka and Ashish Gupta
 •	Great-granddaughter (Par-natin) of: Hamir Mal and Shanti Devi
@@ -666,7 +692,7 @@ Personality: Very cute and playful.
 
 --- PERSON START --- 
 Name: Ananya Soni (alias Yashi) 
-Born: 31st January 2015 
+Born: January 31, 2015 
 Relationships:
 •	Daughter of: Yamini and Yogesh Soni
 •	Great-granddaughter (Par-natin) of: Hamir Mal and Shanti Devi
@@ -677,7 +703,8 @@ Key Facts:
 
 --- PERSON START --- 
 Name: Shantanu Gupta (alias Nonu) 
-Born: 15th February 2010, in Kota 
+Born: February 15, 2010
+Location: Kota 
 Relationships:
 •	Son of: Himanshu and Swati Gupta
 •	Great-grandson (Par-nati) of: Hamir Mal and Shanti Devi
@@ -691,7 +718,8 @@ Personality: [No specific personality traits mentioned in the original document]
 
 --- PERSON START --- 
 Name: Shanaya Gupta (alias Chiya) 
-Born: 10th November 2018, in New Delhi 
+Born: November 10, 2018
+Location: New Delhi 
 Relationships:
 •	Daughter of: Himanshu and Swati Gupta
 •	Great-granddaughter (Par-natin) of: Hamir Mal and Shanti Devi
@@ -704,7 +732,8 @@ Personality: [No specific personality traits mentioned in the original document]
 
 --- PERSON START --- 
 Name: Daiwik Gupta 
-Born: 13th December 2017, in Luxembourg 
+Born: December 13, 2017
+Location: Luxembourg 
 Relationships:
 •	Elder son of: Ruhi and Deepak Gupta
 •	Great-grandson (Par-nati) of: Hamir Mal and Shanti Devi
@@ -718,7 +747,8 @@ Personality: [No specific personality traits mentioned in the original document]
 
 --- PERSON START --- 
 Name: Rudransh Gupta 
-Born: 4th October 2022, in Varanasi 
+Born: October 4, 2022
+Location: Varanasi 
 Relationships:
 •	Younger son of: Ruhi and Deepak Gupta
 •	Great-grandson (Par-nati) of: Hamir Mal and Shanti Devi
@@ -731,7 +761,8 @@ Personality: [No specific personality traits mentioned in the original document]
 
 --- PERSON START --- 
 Name: Vaidik Khandelwal 
-Born: 24th September 2021, in Kota 
+Born: September 24, 2021
+Location: Kota 
 Relationships:
 •	Elder son of: Vineet and Nimisha Khandelwal
 •	Great-grandson (Par-nati) of: Hamir Mal and Shanti Devi
@@ -744,7 +775,8 @@ Personality: [No specific personality traits mentioned in the original document]
 
 --- PERSON START --- 
 Name: Naitik Khandelwal 
-Born: 7th August 2025, in Pune 
+Born: August 7, 2025
+Location: Pune 
 Relationships:
 •	Younger son of: Vineet and Nimisha Khandelwal
 •	Great-grandson (Par-nati) of: Hamir Mal and Shanti Devi
@@ -757,7 +789,8 @@ Personality: [No specific personality traits mentioned in the original document]
 
 --- PERSON START --- 
 Name: Atharva Khandelwal 
-Born: 23rd October 2021, in Bangalore 
+Born: October 23, 2021
+Location: Bangalore 
 Relationships:
 •	Son of: Ina and Ankit Khandelwal
 •	Great-grandson (Par-nati) of: Hamir Mal and Shanti Devi 
@@ -767,4 +800,73 @@ Key Facts:
 Personality: [No specific personality traits mentioned in the original document] 
 --- PERSON END ---
 
+---Person Start---
+Name: Shanti Devi & Hamir Mal
+Anniversary: Unknown
+---Person Ends---
+
+---Person Start---
+Name: Laxmi & Kailash
+Anniversary: April 21, 1977
+---Person Ends---
+
+---Person Start---
+Name: Nirmala & Mahesh
+Anniversary: February 7, 1984
+---Person Ends---
+
+---Person Start---
+Name: Indu & Narendra
+Anniversary: June 4
+---Person Ends---
+
+---Person Start---
+Name: Archana & Hansraj
+Anniversary: December 12, 1996
+---Person Ends---
+
+---Person Start---
+Name: Savita & Kamlesh
+Anniversary: December 8, 1997
+---Person Ends---
+
+---Person Start---
+Name: Gayatri & Hemant
+Anniversary: December 1, 2001
+---Person Ends---
+
+---Person Start---
+Name: Sweety & Ashish
+Anniversary: May 12, 2003
+---Person Ends---
+
+---Person Start---
+Name: Swati & Himanshu
+Anniversary: November 29, 2008
+---Person Ends---
+
+---Person Start---
+Name: Mini & Yogesh
+Anniversary: January 17, 2011
+---Person Ends---
+
+---Person Start---
+Name: Nimisha & Vineet
+Anniversary: February 10, 2019
+---Person Ends---
+
+---Person Start---
+Name: Ruhi & Deepak
+Anniversary: June 6, 2014
+---Person Ends---
+
+---Person Start---
+Name: Juhi & Shubham
+Anniversary: December 9, 2016
+---Person Ends---
+
+---Person Start---
+Name: Ina & Ankit
+Anniversary: June 29, 2018
+---Person Ends---
 
