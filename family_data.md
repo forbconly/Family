@@ -17,6 +17,7 @@ Key Facts:
 •	Has lost most of his hearing and communicates via a tab. 
 Personality: Very jolly, holds command in conversation, respected for his wisdom within the Khandelwal community. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Shanti Devi 
 Born: Approx. 1945 (4 years younger than husband) 
@@ -31,6 +32,7 @@ Key Facts:
 •	Remains very active in her daily work despite her age. 
 Personality: A faithful and dedicated home maker. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Laxmi Gupta (alias Munni) 
 Born: [Date Unknown], in Balakhera 
@@ -51,6 +53,7 @@ Key Facts:
 •	Likes to travel with her husband, attend kitty parties, and relax at home post her husband's retirement. 
 Personality: Very adaptive. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Kailash Chand Gupta 
 Born: [Date Unknown], in Kota 
@@ -72,6 +75,7 @@ Key Facts:
 •	Recently travelled to Bhutan with his friends. 
 Personality: Enjoys chilling with friends, very conversant with Indian civil laws, has a keen taste for food, holds high respect in the family. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Nirmala Khandelwal 
 Born: 19th June 1964, in Balakhera 
@@ -93,6 +97,7 @@ Key Facts:
 •	Has visited more than 10 countries including Singapore, Malaysia, and several in Europe. 
 Personality: Very adaptive, has an excellent memory for details, no matter how old or small. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Mahesh Khandelwal 
 Born: 6th December 1962 (official: 1st Feb 1962), in Anta 
@@ -114,6 +119,7 @@ Key Facts:
 •	Enjoys parties with his friend/nephew Sattu and is living life to the fullest with his four grandsons. 
 Personality: Very polite, soft-spoken, and has lived a life of great simplicity. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Indu Khandelwal (alias Guddi) 
 Born: 5th October 1965, in Kota 
@@ -135,6 +141,7 @@ Key Facts:
 •	She loves her ger grandson Atharva so much that they have named their newly inaugurated house name as “Atharva”
 Personality: Open-minded while still holding traditional cultural values. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Narendra Khandelwal 
 Born: 1961 
@@ -152,6 +159,7 @@ Key Facts:
 •	Lives with Indu in the same society as Nirmala and Mahesh. 
 Personality: Very jolly and smiling, soft-spoken, easy-going, makes friends very quickly. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Hansraj Gupta 
 Born: 6th January 1969 
@@ -172,9 +180,10 @@ Key Facts:
 •	Invests in the stock market and real estate. 
 Personality: Strong personality, very hard-wired, very social and outgoing. Sceptical by nature and cross-checks everything. Holds strong, often conservative, opinions on almost everything. Very helpful and is often the first to be called in a crisis. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Archana Gupta 
-Born: [Date Unknown], in Jaipur 
+Born: 31st August, in Jaipur 
 Relationships:
 •	Spouse of: Hansraj Gupta
 •	Mother (Mummy) of: Mohnish, Shubhi
@@ -188,9 +197,10 @@ Key Facts:
 •	Married Hansraj in a lavish wedding ceremony in Jaipur in 1996. 
 Personality: Very friendly and happening, just like Hansraj. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Kamlesh Khandelwal 
-Born: [Date Unknown] 
+Born: 23rd September 
 Relationships:
 •	Second son of: Hamir Mal Gupta and Shanti Devi
 •	Spouse of: Savita Khandelwal (Married in 1997)
@@ -206,6 +216,7 @@ Key Facts:
 •	Has lived in Indore city since 2010. Before Indore, he used to live in Dhar.
 Personality: Very accommodative, "keep it simple" attitude, smiling, and a very happening guy. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Savita Khandelwal 
 Born: 16th December [Year Unknown], in Jaipur 
@@ -224,9 +235,10 @@ Key Facts:
 •	Her group's society event celebrations often get covered by local news media. 
 Personality: Full of life, extremely outgoing, a party person. Loves kitty parties, organizing events, and has a very modern and progressive ideology. A great home maker and a very good host. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Hemant Gupta 
-Born: [Date Unknown] 
+Born: 12th July 
 Relationships:
 •	Youngest son of: Hamir Mal Gupta and Shanti Devi
 •	Spouse of: Gayatri Gupta
@@ -241,9 +253,10 @@ Key Facts:
 •	Loves travelling by car and has roamed the western part of India by road. 
 Personality: Hard-working due to the nature of his job. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Gayatri Gupta 
-Born: [Date Unknown] 
+Born: 18th February 
 Relationships:
 •	Spouse of: Hemant Gupta
 •	Mother (Mummy) of: Kaira, Vihaan
@@ -257,13 +270,14 @@ Key Facts:
 •	Being a female doctor, she's the first in the family to know about any pregnancies. 
 Personality: Hard-working at the hospital and at home, quick-witted, very homely, and welcoming.
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Priyanka Gupta (alias Sweety) 
 Born: 15th June 1978, in Kota 
 Relationships:
 •	Eldest daughter of: Laxmi and Kailash Chand Gupta
 •	Granddaughter (Natin) of: Hamir Mal and Shanti Devi
-•	Spouse of: Ashish Gupta (Married in May 2003)
+•	Spouse of: Ashish Gupta (Married on 12th May 2003)
 •	Mother (Mummy) of: Raghav, Nandini
 •	Elder sister (Didi) to: Himanshu, Yamini
 •	Cousin (Didi) to: All other grandchildren of Hamir Mal 
@@ -278,9 +292,10 @@ Key Facts:
 •	Lives in Jaipur. 
 Personality: Known as the most beautiful among her siblings and cousins, very friendly, with a very good sense of humor. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Ashish Gupta 
-Born: [Date Unknown] 
+Born: 23rd November 1976, in Jaipur
 Relationships:
 •	Spouse of: Priyanka Gupta
 •	Father (Papa) of: Raghav, Nandini
@@ -296,9 +311,11 @@ Key Facts:
 •	He is the only person in the family with blue eyes. 
 Personality: Very handsome and humorous, very resourceful with a vast network of contacts, normally wears his t-shirt with the collar up. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Himanshu Gupta 
-Born: November 1979, in Kota Relationships:
+Born: 11th November 1979, in Kota 
+Relationships:
 •	Son of: Laxmi and Kailash Chand Gupta
 •	Grandson (Nati) of: Hamir Mal and Shanti Devi
 •	Spouse of: Swati Gupta (Married on 29th Nov 2008)
@@ -316,6 +333,7 @@ Key Facts:
 •	Used to be a very good cricket bowler. 
 Personality: A smart guy, rumoured to have had many girlfriends in college, used to roam around with his friends on a motorbike. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Swati Gupta 
 Born: 27th August [Year Unknown] 
@@ -329,13 +347,14 @@ Key Facts:
 •	A pharmacist working as a government employee with ESIC, New Delhi. 
 Personality: Very talented and participates in cultural events in her society, can be a bit controlling and likes things done her way. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Yamini (alias Mini) 
-Born: November 1983 
+Born: 8th November 1983 
 Relationships:
 •	Youngest daughter of: Laxmi and Kailash Chand Gupta
 •	Granddaughter (Natin) of: Hamir Mal and Shanti Devi
-•	Spouse of: Yogesh Soni (Married in Feb 2011)
+•	Spouse of: Yogesh Soni (Married on 17th Jan 2011)
 •	Mother (Mummy) of: Ananya
 •	Younger sister to: Priyanka, Himanshu 
 •	Nanad of: Swati
@@ -349,9 +368,10 @@ Key Facts:
 •	Believes in horoscopes and numerology and is very superstitious. 
 Personality: Very versatile, talented, and multi-dimensional, with a good sense of humor. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Yogesh Soni 
-Born: 3rd August [Year Unknown], in Kota 
+Born: 3rd August 1983, in Kota 
 Relationships:
 •	Spouse of: Yamini Gupta
 •	Father (Papa) of: Ananya
@@ -367,6 +387,7 @@ Key Facts:
 •	Likes to travel to Thailand on solo trips. 
 Personality: Quick-witted, loves partying with friends, his jokes are often linked to movies and memes, shares friendly banter with Yamini on the family WhatsApp group.
  --- PERSON END ---
+ 
 --- PERSON START --- 
 Name: Vineet Khandelwal (alias Vicky) 
 Born: 16th June 1985, in Kota 
@@ -388,6 +409,7 @@ Key Facts:
 •	Currently lives in Pune. 
 Personality: Extremely quick-witted, practical, and realistic. Very handsome, tall, and fit. A family person who prefers spending time with family over friends. Not a foodie, prefers simple home-cooked meals. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Nimisha Khandelwal 
 Born: 16th December 1990, in Mumbai 
@@ -404,6 +426,7 @@ Key Facts:
 •	Likes to play mobile games and use Instagram. 
 Personality: Very friendly, jolly, and always smiling. Extremely calm and composed, even in difficult times. Very dedicated professionally. Innocent and apolitical. A foodie who loves to eat outside. A typical Mumbai person; opposite in nature to her husband Vineet. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Ruhi (alias Baby) 
 Born: 6th December 1986, in Kota 
@@ -424,9 +447,10 @@ Key Facts:
 •	Moved to Pune in 2024. 
 Personality: Happening in nature, similar to her mother. A great home maker. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Deepak Gupta 
-Born: 1986, in Varanasi 
+Born: 11th March 1986, in Varanasi 
 Relationships:
 •	Spouse of: Ruhi Khandelwal
 •	Father (Papa) of: Daiwik, Rudransh
@@ -438,8 +462,11 @@ Key Facts:
 •	Has worked in Delhi NCR, Luxembourg, Varanasi, and now lives in Pune. 
 Personality: A typical IT engineer. A gentleman and a family person. Calm, composed, and cool. Evaluates all options before making a decision. Loves to watch cricket.
 --- PERSON END ---
+
 --- PERSON START --- 
-Name: Juhi (alias Peppy) Born: 9th July 1989, in Anta Relationships:
+Name: Juhi (alias Peppy) 
+Born: 9th July 1989, in Anta 
+Relationships:
 •	Youngest daughter of: Nirmala and Mahesh Khandelwal
 •	Granddaughter (Natin) of: Hamir Mal and Shanti Devi
 •	Spouse of: Shubham Mamodia (Married in 2016)
@@ -453,9 +480,10 @@ Key Facts:
 •	Has lived in Bangalore since her marriage. 
 Personality: Took a spiritual path, very calm and soft-spoken. Likable and friendly. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Shubham Mamodia 
-Born: 1989, in Madhopur 
+Born: 18th August 1989, in Sri Madhopur 
 Relationships:
 •	Spouse of: Juhi Khandelwal
 •	Damadji of: Nirmala and Mahesh Khandelwal 
@@ -465,6 +493,7 @@ Relationships:
 Key Facts:
 •	A software engineer who has worked with MNCs like Huawei. Personality: Very similar in nature to Juhi. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Ina Khandelwal 
 Born: 15th April 1991 
@@ -482,6 +511,7 @@ Key Facts:
 •	Lives in Bangalore. 
 Personality: [No specific personality traits mentioned in the original document] 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Ankit Khandelwal 
 Born: [Date Unknown] 
@@ -494,6 +524,7 @@ Key Facts:
 •	A software engineer living in Bangalore. 
 Personality: [No specific personality traits mentioned in the original document] 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Ashwin Khandelwal (alias Manu) 
 Born: 23rd April 1997, in Kota 
@@ -512,6 +543,7 @@ Key Facts:
 •	Takes more than an hour to shower. 
 Personality: Cool-headed with a great sense of humor. Loves to sport a beard, inspired by Virat Kohli. Takes good care of his looks. Rumoured to have many female friends in college. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Priyansh Khandelwal (alias Pikul) 
 Born: 5th March 1998, in Kota 
@@ -529,6 +561,7 @@ Key Facts:
 •	Owns a BMW sports bike but doesn't like driving cars. 
 Personality: Was very naughty in childhood but is now very intelligent, intellectual, obedient, and peace-loving. An introvert who likes to spend time with himself. Tall, handsome, with curly hair and wears spectacles. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Mohnish Gupta (alias Mikul) 
 Born: 22nd May 1998, in Kota 
@@ -545,6 +578,7 @@ Key Facts:
 •	Loves car driving and long rides. 
 Personality: Intelligent but not as studious as Pikul. Has a practical and no-nonsense attitude which, it's joked, prevents him from getting a girlfriend as he can't tolerate tantrums.
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Nimit Khandelwal 
 Born: 14th November 2003, in Kota 
@@ -561,6 +595,7 @@ Key Facts:
 •	Likes western music like Taylor Swift and Coldplay. 
 Personality: Extremely intelligent and sincere. A multi-talented prodigy. Unlike his introvert brother, he is very outgoing and an extrovert. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Kaira Khandelwal (alias Diya) 
 Born: 3rd July 2004, in Kota 
@@ -576,9 +611,10 @@ Key Facts:
 •	Likes western music, a big fan of Taylor Swift and Coldplay. 
 Personality: Very studious and intelligent, a promising prodigy. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Shubhi Gupta (alias Kanchi) 
-Born: [Date Unknown], in Kota 
+Born: 25th September, in Kota 
 Relationships:
 •	Daughter of: Hansraj and Archana Gupta
 •	Granddaughter (Poti) of: Hamir Mal and Shanti Devi
@@ -589,6 +625,7 @@ Key Facts:
 •	Likes western music (Taylor Swift, Coldplay) and shares a great sisterly bond with her cousin Kaira over it. 
 Personality: A promising prodigy, perhaps a future Supreme Court Lawyer or Judge. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Vihaan Gupta (alias Kanha) 
 Born: 19th August 2014, in Gurgaon 
@@ -599,9 +636,10 @@ Relationships:
 •	Cousin to: Priyanka, Yamini, Himanshu, Vineet, Ruhi, Juhi, Ina, Ashwin, Priyansh, Kaira, Mohnish, Nimit, Shubhi
 Personality: Among the naughtiest kids in the family. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Raghav Gupta 
-Born: 2003, in Jaipur 
+Born: 18th January 2005, in Jaipur 
 Relationships:
 •	Son of: Priyanka and Ashish Gupta
 •	Great-grandson (Par-nati) of: Hamir Mal and Shanti Devi
@@ -612,9 +650,10 @@ Key Facts:
 •	Currently pursuing software engineering in Jaipur. 
 Personality: Very decent and obedient. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Nandini Gupta (alias Gudda) 
-Born: [Date Unknown] 
+Born: 27th October 2009, in Jaipur 
 Relationships:
 •	Daughter of: Priyanka and Ashish Gupta
 •	Great-granddaughter (Par-natin) of: Hamir Mal and Shanti Devi
@@ -624,9 +663,10 @@ Key Facts:
 •	Currently studying in school in Jaipur. 
 Personality: Very cute and playful.
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Ananya Soni (alias Yashi) 
-Born: [Date Unknown] 
+Born: 31st January 2015 
 Relationships:
 •	Daughter of: Yamini and Yogesh Soni
 •	Great-granddaughter (Par-natin) of: Hamir Mal and Shanti Devi
@@ -634,9 +674,10 @@ Relationships:
 Key Facts:
 •	Currently studying in school in Jaipur. Personality: Very cute and playful. 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Shantanu Gupta (alias Nonu) 
-Born: 2009, in Kota 
+Born: 15th February 2010, in Kota 
 Relationships:
 •	Son of: Himanshu and Swati Gupta
 •	Great-grandson (Par-nati) of: Hamir Mal and Shanti Devi
@@ -647,9 +688,10 @@ Key Facts:
 •	Currently studying in school in New Delhi. 
 Personality: [No specific personality traits mentioned in the original document] 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Shanaya Gupta (alias Chiya) 
-Born: 2018, in New Delhi 
+Born: 10th November 2018, in New Delhi 
 Relationships:
 •	Daughter of: Himanshu and Swati Gupta
 •	Great-granddaughter (Par-natin) of: Hamir Mal and Shanti Devi
@@ -659,9 +701,10 @@ Key Facts:
 •	Currently studying in school in New Delhi. 
 Personality: [No specific personality traits mentioned in the original document]
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Daiwik Gupta 
-Born: 2017, in Luxembourg 
+Born: 13th December 2017, in Luxembourg 
 Relationships:
 •	Elder son of: Ruhi and Deepak Gupta
 •	Great-grandson (Par-nati) of: Hamir Mal and Shanti Devi
@@ -672,9 +715,10 @@ Key Facts:
 •	Currently studying in school in New Delhi. 
 Personality: [No specific personality traits mentioned in the original document] 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Rudransh Gupta 
-Born: 2022, in Varanasi 
+Born: 4th October 2022, in Varanasi 
 Relationships:
 •	Younger son of: Ruhi and Deepak Gupta
 •	Great-grandson (Par-nati) of: Hamir Mal and Shanti Devi
@@ -684,6 +728,7 @@ Key Facts:
 •	Currently in play school. 
 Personality: [No specific personality traits mentioned in the original document] 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Vaidik Khandelwal 
 Born: 24th September 2021, in Kota 
@@ -696,6 +741,7 @@ Key Facts:
 •	Currently studying in school in Pune. 
 Personality: [No specific personality traits mentioned in the original document] 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Naitik Khandelwal 
 Born: 7th August 2025, in Pune 
@@ -708,6 +754,7 @@ Key Facts:
 •	The youngest member of the family. 
 Personality: [No specific personality traits mentioned in the original document] 
 --- PERSON END ---
+
 --- PERSON START --- 
 Name: Atharva Khandelwal 
 Born: 23rd October 2021, in Bangalore 
@@ -719,4 +766,5 @@ Key Facts:
 •	Currently studying in school in Bangalore. 
 Personality: [No specific personality traits mentioned in the original document] 
 --- PERSON END ---
+
 
