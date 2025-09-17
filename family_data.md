@@ -359,7 +359,7 @@ Personality: Very talented and participates in cultural events in her society, c
 ---Person Ends---
 
 ---Person Start--- 
-Name: Yamini (alias Mini) 
+Name: Yamini Gupta (alias Mini) 
 Born: November 8, 1983 
 Relationships:
 •	Youngest daughter of: Laxmi and Kailash Chand Gupta
@@ -441,7 +441,7 @@ Personality: Very friendly, jolly, and always smiling. Extremely calm and compos
 ---Person Ends---
 
 ---Person Start--- 
-Name: Ruhi (alias Baby) 
+Name: Ruhi Khandelwal (alias Baby) 
 Born: December 6, 1986
 Location: Kota 
 Relationships:
@@ -479,7 +479,7 @@ Personality: A typical IT engineer. A gentleman and a family person. Calm, compo
 ---Person Ends---
 
 ---Person Start--- 
-Name: Juhi (alias Peppy) 
+Name: Juhi Khandelwal (alias Peppy) 
 Born: July 9, 1989
 Location: Anta 
 Relationships:
@@ -508,7 +508,8 @@ Relationships:
 •	Mosaji of: Daiwik, Rudransh
 •	Jijaji of: Ina, Ashwin, Mohnish, Shubhi, Priyansh, Nimit, Kaira, Vihaan
 Key Facts:
-•	A software engineer who has worked with MNCs like Huawei. Personality: Very similar in nature to Juhi. 
+•	A software engineer who has worked with MNCs like Huawei. 
+Personality: Very calm and soft-spoken. Likable and friendly. Very similar in nature to Juhi. 
 ---Person Ends---
 
 ---Person Start--- 
@@ -746,7 +747,7 @@ Personality: [No specific personality traits mentioned in the original document]
 ---Person Ends---
 
 ---Person Start--- 
-Name: Rudransh Gupta 
+Name: Rudransh Khandelwal 
 Born: October 4, 2022
 Location: Varanasi 
 Relationships:
