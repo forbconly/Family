@@ -29,7 +29,9 @@ def get_next_event_message(family_data):
     next_event = None
     smallest_delta = timedelta(days=367)
 
-    person_blocks = re.findall(r'---Person Start---(.*?)---Person Ends---', family_data, re.DOTALL)
+    # --- THIS LINE IS THE FIX ---
+    # Added re.IGNORECASE to find all blocks regardless of capitalization
+    person_blocks = re.findall(r'---Person Start---(.*?)---Person Ends---', family_data, re.DOTALL | re.IGNORECASE)
     
     for block in person_blocks:
         name_match = re.search(r'Name:\s*(.*)', block)
@@ -52,7 +54,7 @@ def get_next_event_message(family_data):
                     has_year = True
                 except ValueError:
                     try:
-                        event_date = datetime.strptime(date_str, '%B %d')
+                        event_date = datetime.strptime(date_str + ", 1904", '%B %d, %Y')
                         has_year = False
                     except ValueError:
                         continue
@@ -99,7 +101,8 @@ def get_next_event_message(family_data):
 def parse_data_for_quiz(family_data):
     """Parses the data file to extract facts for the quiz."""
     facts = []
-    person_blocks = re.findall(r'---Person Start---(.*?)---Person Ends---', family_data, re.DOTALL)
+    # --- THIS LINE IS ALSO FIXED ---
+    person_blocks = re.findall(r'---Person Start---(.*?)---Person Ends---', family_data, re.DOTALL | re.IGNORECASE)
     for block in person_blocks:
         name_match = re.search(r'Name:\s*(.*)', block)
         if name_match:
@@ -137,7 +140,7 @@ def get_groq_response(client, messages):
 # --- Streamlit App ---
 
 st.set_page_config(page_title="Family AI", page_icon="👨‍👩‍👧‍👦")
-st.title("🤖 The Family AI")
+st.title("🤖 Aaradhana Family AI")
 
 # Load data and initialize Groq client
 family_data = load_family_data()
@@ -158,7 +161,7 @@ tab1, tab2 = st.tabs(["💬 Chatbot", "🏆 Family Trivia Game"])
 
 # Chatbot Tab
 with tab1:
-    st.write("Ask me anything about the family!")
+    st.write("Ask me anything about the family! Like, Who is Bullet Raja of the Family?")
     if "messages" not in st.session_state:
         system_prompt = f"""You are a witty, creative, and respectful AI assistant for a family.
         Your strict rules are: be funny, respectful, diplomatic, and always add a fun fact.
@@ -208,6 +211,3 @@ with tab2:
                     st.success("Correct! You're a family expert!")
                 else:
                     st.error(f"Not quite! The correct answer was: {q['correct_answer']}")
-
-
-
