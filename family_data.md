@@ -1,4 +1,4 @@
---- PERSON START --- 
+---Person Start--- 
 Name: Hamir Mal Gupta 
 Born: March 4, 1941 
 Location: Balakhera village, Kota district, Rajasthan 
@@ -16,9 +16,9 @@ Key Facts:
 •	Now enjoys a retired life with rituals of worship, walks, sunbaths, and meeting old friends.
 •	Has lost most of his hearing and communicates via a tab. 
 Personality: Very jolly, holds command in conversation, respected for his wisdom within the Khandelwal community. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Shanti Devi 
 Born: 1945 
 Relationships:
@@ -31,9 +31,9 @@ Key Facts:
 •	Used to handle all household chores and fieldwork on her own.
 •	Remains very active in her daily work despite her age. 
 Personality: A faithful and dedicated home maker. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Laxmi Gupta (alias Munni) 
 Born: [Date Unknown]
 Location: Balakhera 
@@ -53,9 +53,9 @@ Key Facts:
 •	As the eldest, she used to help her mother with household work.
 •	Likes to travel with her husband, attend kitty parties, and relax at home post her husband's retirement. 
 Personality: Very adaptive. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Kailash Chand Gupta 
 Born: January 17
 Location: Kota 
@@ -76,9 +76,9 @@ Key Facts:
 •	Is very brand conscious about clothes and shoes.
 •	Recently travelled to Bhutan with his friends. 
 Personality: Enjoys chilling with friends, very conversant with Indian civil laws, has a keen taste for food, holds high respect in the family. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Nirmala Khandelwal 
 Born: June 19, 1964
 Location: Balakhera 
@@ -99,9 +99,9 @@ Key Facts:
 •	Had a successful major surgery for a brain haemorrhage in 2003 at AIIMS, New Delhi. Also second operation in 2014 in Medanta Hospital, Gurgaon.
 •	Has visited more than 10 countries including Singapore, Malaysia, and several in Europe. 
 Personality: Very adaptive, has an excellent memory for details, no matter how old or small. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Mahesh Khandelwal 
 Born: December 6, 1962
 Location: Anta 
@@ -122,9 +122,9 @@ Key Facts:
 •	Now retired and living in Devashish City society in Kota.
 •	Enjoys parties with his friend/nephew Sattu and is living life to the fullest with his four grandsons. 
 Personality: Very polite, soft-spoken, and has lived a life of great simplicity. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Indu Khandelwal (alias Guddi) 
 Born: October 5, 1965
 Location: Kota 
@@ -145,9 +145,9 @@ Key Facts:
 •	Now lives in the same Kota society as her sister Nirmala. 
 •	She loves her ger grandson Atharva so much that they have named their newly inaugurated house name as “Atharva”
 Personality: Open-minded while still holding traditional cultural values. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Narendra Khandelwal 
 Born: 1961 
 Relationships:
@@ -163,9 +163,9 @@ Key Facts:
 •	Comes from a farming background and has valuable farmlands near Kota city.
 •	Lives with Indu in the same society as Nirmala and Mahesh. 
 Personality: Very jolly and smiling, soft-spoken, easy-going, makes friends very quickly. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Hansraj Gupta 
 Born: January 6, 1969 
 Relationships:
@@ -184,9 +184,9 @@ Key Facts:
 •	Lives so close to the railway station he often leaves just 5 minutes before train departure.
 •	Invests in the stock market and real estate. 
 Personality: Strong personality, very hard-wired, very social and outgoing. Sceptical by nature and cross-checks everything. Holds strong, often conservative, opinions on almost everything. Very helpful and is often the first to be called in a crisis. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Archana Gupta 
 Born: August 31
 Location: Jaipur 
@@ -202,9 +202,9 @@ Key Facts:
 •	Has B.A. and B.Ed degrees and teaches in a college in Kota.
 •	Married Hansraj in a lavish wedding ceremony in Jaipur in 1996. 
 Personality: Very friendly and happening, just like Hansraj. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Kamlesh Khandelwal 
 Born: September 23 
 Relationships:
@@ -221,9 +221,9 @@ Key Facts:
 •	Works at JSW Steel (formerly National Steel).
 •	Has lived in Indore city since 2010. Before Indore, he used to live in Dhar.
 Personality: Very accommodative, "keep it simple" attitude, smiling, and a very happening guy. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Savita Khandelwal 
 Born: December 16
 Location: Jaipur 
@@ -241,9 +241,9 @@ Key Facts:
 •	Her hard work and dedication helped both her sons become IIT engineers.
 •	Her group's society event celebrations often get covered by local news media. 
 Personality: Full of life, extremely outgoing, a party person. Loves kitty parties, organizing events, and has a very modern and progressive ideology. A great home maker and a very good host. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Hemant Gupta 
 Born: July 12 
 Relationships:
@@ -259,9 +259,9 @@ Key Facts:
 •	Currently works at a private hospital in Jaipur.
 •	Loves travelling by car and has roamed the western part of India by road. 
 Personality: Hard-working due to the nature of his job. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Gayatri Gupta 
 Born: February 18 
 Relationships:
@@ -276,9 +276,9 @@ Key Facts:
 •	Also a doctor by profession.
 •	Being a female doctor, she's the first in the family to know about any pregnancies. 
 Personality: Hard-working at the hospital and at home, quick-witted, very homely, and welcoming.
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Priyanka Gupta (alias Sweety) 
 Born: June 15, 1978
 Location: Kota 
@@ -299,9 +299,9 @@ Key Facts:
 •	Likes to go out with her old school friends.
 •	Lives in Jaipur. 
 Personality: Known as the most beautiful among her siblings and cousins, very friendly, with a very good sense of humor. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Ashish Gupta 
 Born: November 23, 1976
 Location: Jaipur
@@ -319,9 +319,9 @@ Key Facts:
 •	Recently won a Box-Cricket championship.
 •	He is the only person in the family with blue eyes. 
 Personality: Very handsome and humorous, very resourceful with a vast network of contacts, normally wears his t-shirt with the collar up. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Himanshu Gupta 
 Born: November 11, 1979
 Location: Kota 
@@ -342,9 +342,9 @@ Key Facts:
 •	The first left-handed person in the family (second is his son Shantanu).
 •	Used to be a very good cricket bowler. 
 Personality: A smart guy, rumoured to have had many girlfriends in college, used to roam around with his friends on a motorbike. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Swati Gupta 
 Born: August 27 
 Relationships:
@@ -356,9 +356,9 @@ Relationships:
 Key Facts:
 •	A pharmacist working as a government employee with ESIC, New Delhi. 
 Personality: Very talented and participates in cultural events in her society, can be a bit controlling and likes things done her way. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Yamini (alias Mini) 
 Born: November 8, 1983 
 Relationships:
@@ -377,9 +377,9 @@ Key Facts:
 •	Flaunts her travels a lot on social media and loves photo-ops.
 •	Believes in horoscopes and numerology and is very superstitious. 
 Personality: Very versatile, talented, and multi-dimensional, with a good sense of humor. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Yogesh Soni 
 Born: August 3, 1983
 Location: Kota 
@@ -394,12 +394,12 @@ Key Facts:
 •	Comes from a business family dealing in Gold and Silver ornaments.
 •	Met Yamini during their MBA in Kota.
 •	Is a banker and has lived in Jodhpur, Ahmedabad, and Jaipur.
-•	Owns and loves to ride a Bullet motorbike.
+•	Owns and loves to ride a Bullet motorbike. Thats why he is called as Bullet Raja of the family.
 •	Likes to travel to Thailand on solo trips. 
 Personality: Quick-witted, loves partying with friends, his jokes are often linked to movies and memes, shares friendly banter with Yamini on the family WhatsApp group.
- --- PERSON END ---
+---Person Ends---
  
---- PERSON START --- 
+---Person Start--- 
 Name: Vineet Khandelwal (alias Vicky) 
 Born: June 16, 1985
 Location: Kota 
@@ -420,9 +420,9 @@ Key Facts:
 •	Loves long drives in his own car.
 •	Currently lives in Pune. 
 Personality: Extremely quick-witted, practical, and realistic. Very handsome, tall, and fit. A family person who prefers spending time with family over friends. Not a foodie, prefers simple home-cooked meals. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Nimisha Khandelwal 
 Born: December 16, 1990
 Location: Mumbai 
@@ -438,9 +438,9 @@ Key Facts:
 •	Is a great dancer and loves to travel and go trekking.
 •	Likes to play mobile games and use Instagram. 
 Personality: Very friendly, jolly, and always smiling. Extremely calm and composed, even in difficult times. Very dedicated professionally. Innocent and apolitical. A foodie who loves to eat outside. A typical Mumbai person; opposite in nature to her husband Vineet. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Ruhi (alias Baby) 
 Born: December 6, 1986
 Location: Kota 
@@ -460,9 +460,9 @@ Key Facts:
 •	Her son Daiwik is the only child in the family born outside India.
 •	Moved to Pune in 2024. 
 Personality: Happening in nature, similar to her mother. A great home maker. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Deepak Gupta 
 Born: March 11, 1986
 Location: Varanasi 
@@ -476,9 +476,9 @@ Key Facts:
 •	A software engineer who has been working with TCS since the start of his career.
 •	Has worked in Delhi NCR, Luxembourg, Varanasi, and now lives in Pune. 
 Personality: A typical IT engineer. A gentleman and a family person. Calm, composed, and cool. Evaluates all options before making a decision. Loves to watch cricket.
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Juhi (alias Peppy) 
 Born: July 9, 1989
 Location: Anta 
@@ -495,9 +495,9 @@ Key Facts:
 •	Never eats outside food and always carries homemade food when travelling.
 •	Has lived in Bangalore since her marriage. 
 Personality: Took a spiritual path, very calm and soft-spoken. Likable and friendly. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Shubham Mamodia 
 Born: August 18, 1989
 Location: Sri Madhopur 
@@ -509,9 +509,9 @@ Relationships:
 •	Jijaji of: Ina, Ashwin, Mohnish, Shubhi, Priyansh, Nimit, Kaira, Vihaan
 Key Facts:
 •	A software engineer who has worked with MNCs like Huawei. Personality: Very similar in nature to Juhi. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Ina Khandelwal 
 Born: April 15, 1991 
 Relationships:
@@ -527,9 +527,9 @@ Key Facts:
 •	Has worked with major MNCs like ExxonMobil.
 •	Lives in Bangalore. 
 Personality: [No specific personality traits mentioned in the original document] 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Ankit Khandelwal 
 Born: January 17
 Relationships:
@@ -540,9 +540,9 @@ Relationships:
 Key Facts:
 •	A software engineer living in Bangalore. 
 Personality: [No specific personality traits mentioned in the original document] 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Ashwin Khandelwal (alias Manu) 
 Born: April 23, 1997
 Location: Kota 
@@ -560,9 +560,9 @@ Key Facts:
 •	Loves car driving, long drives, and going to the gym.
 •	Takes more than an hour to shower. 
 Personality: Cool-headed with a great sense of humor. Loves to sport a beard, inspired by Virat Kohli. Takes good care of his looks. Rumoured to have many female friends in college. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Priyansh Khandelwal (alias Pikul) 
 Born: March 5, 1998
 Location: Kota 
@@ -579,9 +579,9 @@ Key Facts:
 •	Loves travelling to Thailand and Goa.
 •	Owns a BMW sports bike but doesn't like driving cars. 
 Personality: Was very naughty in childhood but is now very intelligent, intellectual, obedient, and peace-loving. An introvert who likes to spend time with himself. Tall, handsome, with curly hair and wears spectacles. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Mohnish Gupta (alias Mikul) 
 Born: May 22, 1998
 Location: Kota 
@@ -597,9 +597,9 @@ Key Facts:
 •	Spends his holidays with his male college friends.
 •	Loves car driving and long rides. 
 Personality: Intelligent but not as studious as Pikul. Has a practical and no-nonsense attitude which, it's joked, prevents him from getting a girlfriend as he can't tolerate tantrums.
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Nimit Khandelwal 
 Born: November 14, 2003
 Location: Kota 
@@ -615,9 +615,9 @@ Key Facts:
 •	Is the tallest member in the family.
 •	Likes western music like Taylor Swift and Coldplay. 
 Personality: Extremely intelligent and sincere. A multi-talented prodigy. Unlike his introvert brother, he is very outgoing and an extrovert. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Kaira Khandelwal (alias Diya) 
 Born: July 3, 2004
 Location: Kota 
@@ -632,9 +632,9 @@ Key Facts:
 •	Has not watched the famous movie 'Munna Bhai MBBS'.
 •	Likes western music, a big fan of Taylor Swift and Coldplay. 
 Personality: Very studious and intelligent, a promising prodigy. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Shubhi Gupta (alias Kanchi) 
 Born: September 25
 Location: Kota 
@@ -647,9 +647,9 @@ Key Facts:
 •	Chose a different profession and went to National Law School, Mumbai.
 •	Likes western music (Taylor Swift, Coldplay) and shares a great sisterly bond with her cousin Kaira over it. 
 Personality: A promising prodigy, perhaps a future Supreme Court Lawyer or Judge. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Vihaan Gupta (alias Kanha) 
 Born: August 19, 2014
 Location: Gurgaon 
@@ -659,9 +659,9 @@ Relationships:
 •	Younger brother to: Kaira 
 •	Cousin to: Priyanka, Yamini, Himanshu, Vineet, Ruhi, Juhi, Ina, Ashwin, Priyansh, Kaira, Mohnish, Nimit, Shubhi
 Personality: Among the naughtiest kids in the family. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Raghav Gupta 
 Born: January 18, 2005
 Location: Jaipur 
@@ -674,9 +674,9 @@ Key Facts:
 •	Has taken martial arts training.
 •	Currently pursuing software engineering in Jaipur. 
 Personality: Very decent and obedient. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Nandini Gupta (alias Gudda) 
 Born: October 27, 2009
 Location: Jaipur 
@@ -688,9 +688,9 @@ Relationships:
 Key Facts:
 •	Currently studying in school in Jaipur. 
 Personality: Very cute and playful.
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Ananya Soni (alias Yashi) 
 Born: January 31, 2015 
 Relationships:
@@ -699,9 +699,9 @@ Relationships:
 •	Cousin to: Raghav, Nandini, Shantanu, Shanaya, Vaidik, Naitik, Daiwik, Rudransh, Atharva
 Key Facts:
 •	Currently studying in school in Jaipur. Personality: Very cute and playful. 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Shantanu Gupta (alias Nonu) 
 Born: February 15, 2010
 Location: Kota 
@@ -714,9 +714,9 @@ Key Facts:
 •	The second left-handed person in the family after his father.
 •	Currently studying in school in New Delhi. 
 Personality: [No specific personality traits mentioned in the original document] 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Shanaya Gupta (alias Chiya) 
 Born: November 10, 2018
 Location: New Delhi 
@@ -728,9 +728,9 @@ Relationships:
 Key Facts:
 •	Currently studying in school in New Delhi. 
 Personality: [No specific personality traits mentioned in the original document]
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Daiwik Gupta 
 Born: December 13, 2017
 Location: Luxembourg 
@@ -743,9 +743,9 @@ Key Facts:
 •	The only family member born outside India.
 •	Currently studying in school in New Delhi. 
 Personality: [No specific personality traits mentioned in the original document] 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Rudransh Gupta 
 Born: October 4, 2022
 Location: Varanasi 
@@ -757,9 +757,9 @@ Relationships:
 Key Facts:
 •	Currently in play school. 
 Personality: [No specific personality traits mentioned in the original document] 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Vaidik Khandelwal 
 Born: September 24, 2021
 Location: Kota 
@@ -771,9 +771,9 @@ Relationships:
 Key Facts:
 •	Currently studying in school in Pune. 
 Personality: [No specific personality traits mentioned in the original document] 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Naitik Khandelwal 
 Born: August 7, 2025
 Location: Pune 
@@ -785,9 +785,9 @@ Relationships:
 Key Facts:
 •	The youngest member of the family. 
 Personality: [No specific personality traits mentioned in the original document] 
---- PERSON END ---
+---Person Ends---
 
---- PERSON START --- 
+---Person Start--- 
 Name: Atharva Khandelwal 
 Born: October 23, 2021
 Location: Bangalore 
@@ -798,7 +798,7 @@ Relationships:
 Key Facts:
 •	Currently studying in school in Bangalore. 
 Personality: [No specific personality traits mentioned in the original document] 
---- PERSON END ---
+---Person Ends---
 
 ---Person Start---
 Name: Shanti Devi & Hamir Mal
