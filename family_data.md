@@ -46,7 +46,7 @@ Relationships:
 •	Masi of: Vineet, Ruhi, Juhi, Ina, Ashwin (Sisters' children) 
 •	Sasuji of: Ashish, Swati, Yogesh
 •	Dadi of: Shantanu, Shanaya
-•	Nani of: Raghav, Nandini, Ananys
+•	Nani of: Raghav, Nandini, Ananya
 Key Facts:
 •	Adjusted quickly to city culture after marriage.
 •	Met with an accident in 2001 in a riverside party, broke her leg, and recovered well.
@@ -175,7 +175,7 @@ Relationships:
 •	Younger Brother to: Laxmi, Nirmala, Indu
 •	Elder Brother (Bhai) to: Kamlesh, Hemant
 •	Mama to: Priyanka, Himanshu, Yamini, Vineet, Ruhi, Juhi, Ina, Ashwin (Sisters' children)
-•	Bade Papa to: Priyansh, Nimit, Kaira, Vihaan (Younger Brothers' children
+•	Bade Papa to: Priyansh, Nimit, Kaira, Vihaan (Younger Brothers' children)
 Key Facts:
 •	Has a B.Pharma degree and works at USV pharma company.
 •	Prepared for civil service exams, which made him very knowledgeable.
@@ -188,7 +188,7 @@ Personality: Strong personality, very hard-wired, very social and outgoing. Scep
 
 ---Person Start--- 
 Name: Archana Gupta 
-Born: August 31
+Born: August 31, 1974
 Location: Jaipur 
 Relationships:
 •	Spouse of: Hansraj Gupta
@@ -565,7 +565,7 @@ Personality: Cool-headed with a great sense of humor. Loves to sport a beard, in
 
 ---Person Start--- 
 Name: Priyansh Khandelwal (alias Pikul) 
-Born: March 5, 1998
+Born: March 5, 1999
 Location: Kota 
 Relationships:
 •	Elder son of: Kamlesh and Savita Khandelwal
@@ -579,12 +579,14 @@ Key Facts:
 •	Works at Goldman Sachs in Bangalore.
 •	Loves travelling to Thailand and Goa.
 •	Owns a BMW sports bike but doesn't like driving cars. 
+•	Loves Anime movies and comic books.
+•	Can stay indoors for indefinite time. 
 Personality: Was very naughty in childhood but is now very intelligent, intellectual, obedient, and peace-loving. An introvert who likes to spend time with himself. Tall, handsome, with curly hair and wears spectacles. 
 ---Person Ends---
 
 ---Person Start--- 
 Name: Mohnish Gupta (alias Mikul) 
-Born: May 22, 1998
+Born: May 22, 1999
 Location: Kota 
 Relationships:
 •	Son of: Hansraj and Archana Gupta
@@ -597,7 +599,8 @@ Key Facts:
 •	Works with a US-based startup in Delhi NCR.
 •	Spends his holidays with his male college friends.
 •	Loves car driving and long rides. 
-Personality: Intelligent but not as studious as Pikul. Has a practical and no-nonsense attitude which, it's joked, prevents him from getting a girlfriend as he can't tolerate tantrums.
+•	A nocturn.
+Personality: Intelligent but not as studious as Pikul. Has a practical and "no-nonsense" attitude which, it's joked, prevents him from getting a girlfriend as he can't tolerate tantrums.
 ---Person Ends---
 
 ---Person Start--- 
@@ -631,13 +634,14 @@ Key Facts:
 •	The tallest female in the family.
 •	Pursuing her MBBS from a medical college in Udaipur.
 •	Has not watched the famous movie 'Munna Bhai MBBS'.
-•	Likes western music, a big fan of Taylor Swift and Coldplay. 
+•	Likes western music, a big fan of Taylor Swift and Coldplay.
+•	Has great sister bonding with Shubhi. 
 Personality: Very studious and intelligent, a promising prodigy. 
 ---Person Ends---
 
 ---Person Start--- 
 Name: Shubhi Gupta (alias Kanchi) 
-Born: September 25
+Born: September 25, 2005
 Location: Kota 
 Relationships:
 •	Daughter of: Hansraj and Archana Gupta
@@ -688,6 +692,7 @@ Relationships:
 •	Cousin to: Shantanu, Shayana, Ananya, Vaidik, Naitik, Daiwik, Rudransh, Atharva
 Key Facts:
 •	Currently studying in school in Jaipur. 
+•	Has great sister bonding with Ananya.
 Personality: Very cute and playful.
 ---Person Ends---
 
@@ -699,7 +704,8 @@ Relationships:
 •	Great-granddaughter (Par-natin) of: Hamir Mal and Shanti Devi
 •	Cousin to: Raghav, Nandini, Shantanu, Shanaya, Vaidik, Naitik, Daiwik, Rudransh, Atharva
 Key Facts:
-•	Currently studying in school in Jaipur. Personality: Very cute and playful. 
+•	Currently studying in school in Jaipur. Personality: Very cute and playful.
+•	Has great sister bonding with Nandini. 
 ---Person Ends---
 
 ---Person Start--- 
@@ -742,7 +748,8 @@ Relationships:
 •	Cousin to: Raghav, Nandini, Ananya, Shantanu, Shanaya, Vaidik, Naitik, Atharva
 Key Facts:
 •	The only family member born outside India.
-•	Currently studying in school in New Delhi. 
+•	Currently studying in school in New Delhi.
+•	Throws so many tantrum while having meals that sometimes it is said that he can remain empty stomach for days and extract energy from air.  
 Personality: [No specific personality traits mentioned in the original document] 
 ---Person Ends---
 
