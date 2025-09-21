@@ -3,13 +3,13 @@ import os
 import re
 import random
 from datetime import datetime, timedelta
-from openai import OpenAI # MODIFIED: Import OpenAI instead of Groq
+from openai import OpenAI
 from dotenv import load_dotenv
 
 # Load environment variables
 load_dotenv()
 
-# --- UI Text Translations (No Change) ---
+# --- UI Text Translations ---
 UI_TEXT = {
     "English 🇬🇧": {
         "page_title": "Family AI",
@@ -57,7 +57,7 @@ UI_TEXT = {
     }
 }
 
-# --- Helper Functions (No Change) ---
+# --- Helper Functions ---
 def load_family_data(filepath="family_data.md"):
     try:
         with open(filepath, 'r', encoding='utf-8') as f:
@@ -67,17 +67,20 @@ def load_family_data(filepath="family_data.md"):
         st.stop()
         return None
 
-# --- Feature Functions (No Change) ---
+# --- Feature Functions ---
 def get_next_event_message(family_data, lang_text):
-    today = datetime.now()
+    # --- THIS FUNCTION CONTAINS THE FIX ---
+    today_date = datetime.now().date() # Use .date() to ignore the time of day
     next_event = None
     smallest_delta = timedelta(days=367)
     person_blocks = re.findall(r'---Person Start---(.*?)---Person Ends?---', family_data, re.DOTALL | re.IGNORECASE)
+    
     for block in person_blocks:
         name_match = re.search(r'Name:\s*(.*)', block)
         if not name_match: continue
         name = name_match.group(1).strip()
         event_types = [("Born", lang_text["birthday"]), ("Anniversary", lang_text["anniversary"])]
+        
         for tag, event_name in event_types:
             date_match = re.search(fr'{tag}:\s*([A-Za-z]+\s\d+,?\s?\d*)', block)
             if date_match:
@@ -89,24 +92,33 @@ def get_next_event_message(family_data, lang_text):
                     try:
                         event_date, has_year = datetime.strptime(date_str + ", 1904", '%B %d, %Y'), False
                     except ValueError: continue
-                next_occurrence = event_date.replace(year=today.year)
-                if next_occurrence < today:
-                    next_occurrence = next_occurrence.replace(year=today.year + 1)
-                delta = next_occurrence - today
+                
+                next_occurrence_dt = event_date.replace(year=today_date.year)
+                if next_occurrence_dt.date() < today_date:
+                    next_occurrence_dt = next_occurrence_dt.replace(year=today_date.year + 1)
+                
+                # Compare dates only, not datetime objects
+                delta = next_occurrence_dt.date() - today_date
+                
                 if 0 <= delta.days < smallest_delta.days:
                     smallest_delta = delta
-                    year_diff = next_occurrence.year - event_date.year if has_year else None
-                    next_event = {"name": name, "year_diff": year_diff, "date": next_occurrence, "delta": delta, "type": event_name}
+                    year_diff = next_occurrence_dt.year - event_date.year if has_year else None
+                    next_event = {"name": name, "year_diff": year_diff, "date": next_occurrence_dt, "delta": delta, "type": event_name}
+
     if not next_event: return ""
+    
     event_date_str = next_event['date'].strftime('%B %d')
     delta_days = next_event['delta'].days
+    
     if delta_days == 0: day_info = lang_text["today"]
     elif delta_days == 1: day_info = lang_text["tomorrow"]
     else: day_info = lang_text["in_days"].format(days=delta_days)
+    
     event_details = ""
     if next_event['year_diff'] is not None:
         if next_event['type'] == lang_text["birthday"]: event_details = f"({next_event['year_diff']})"
         else: event_details = f"({next_event['year_diff']} {lang_text['years']})"
+        
     return (f"{lang_text['next_event_header']}**{next_event['name']}'s** {next_event['type']} {event_details} {day_info} on **{event_date_str}**.")
 
 def parse_data_for_quiz(family_data):
@@ -136,14 +148,11 @@ def generate_quiz_question(facts, lang_text):
     random.shuffle(options)
     return {"question": question, "options": options, "correct_answer": correct_answer}
 
-# --- AI Response Function (MODIFIED FOR OPENROUTER) ---
-
 def get_ai_response(client, messages):
     try:
-        # The OpenAI library uses the same syntax, so we only change the model name
         chat_completion = client.chat.completions.create(
             messages=messages,
-            model="openrouter/sonoma-sky-alpha" # MODIFIED: New model name
+            model="openrouter/sonoma-sky-alpha"
         )
         return chat_completion.choices[0].message.content
     except Exception as e:
@@ -161,20 +170,16 @@ st.title(lang_text["app_title"])
 
 family_data = load_family_data()
 
-# --- Client Initialization (MODIFIED FOR OPENROUTER) ---
 try:
-    # Use the OPENROUTER_API_KEY environment variable
     openrouter_api_key = os.environ['OPENROUTER_API_KEY']
     client = OpenAI(
       base_url="https://openrouter.ai/api/v1",
       api_key=openrouter_api_key,
     )
 except KeyError:
-    # Update the error message to ask for the correct key
     st.error("OPENROUTER_API_KEY not found! Please set it in your .env file or Streamlit Secrets.")
     st.stop()
 
-# --- Rest of the App (Logic is the same, just function name changed) ---
 next_event_msg = get_next_event_message(family_data, lang_text)
 if next_event_msg:
     st.info(next_event_msg)
@@ -199,7 +204,7 @@ with tab1:
         with st.chat_message("user"): st.markdown(prompt)
         with st.chat_message("assistant"):
             with st.spinner(lang_text["thinking"]):
-                response = get_ai_response(client, st.session_state.messages) # MODIFIED: Call new function name
+                response = get_ai_response(client, st.session_state.messages)
                 if response:
                     st.markdown(response)
                     st.session_state.messages.append({"role": "assistant", "content": response})
