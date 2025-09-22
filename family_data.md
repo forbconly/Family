@@ -600,6 +600,7 @@ Key Facts:
 •	Spends his holidays with his male college friends.
 •	Loves car driving and long rides. 
 •	A nocturn.
+• Although he graduated in Electrical Engineering, but now a full-stack software engineer with an MNC.
 Personality: Intelligent but not as studious as Pikul. Has a practical and "no-nonsense" attitude which, it's joked, prevents him from getting a girlfriend as he can't tolerate tantrums.
 ---Person Ends---
 
@@ -877,5 +878,6 @@ Anniversary: December 9, 2016
 Name: Ina & Ankit
 Anniversary: June 29, 2018
 ---Person Ends---
+
 
 
