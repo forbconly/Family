@@ -152,7 +152,7 @@ def get_ai_response(client, messages):
     try:
         chat_completion = client.chat.completions.create(
             messages=messages,
-            model="openrouter/sonoma-sky-alpha"
+            model="x-ai/grok-4-fast:free"
         )
         return chat_completion.choices[0].message.content
     except Exception as e:
@@ -228,3 +228,4 @@ with tab2:
                     st.success(lang_text["trivia_correct"])
                 else:
                     st.error(lang_text["trivia_incorrect"].format(answer=q['correct_answer']))
+
