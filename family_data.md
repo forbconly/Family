@@ -35,8 +35,8 @@ Personality: A faithful and dedicated home maker.
 
 ---Person Start--- 
 Name: Laxmi Gupta (alias Munni) 
-Born: [Date Unknown]
-Location: Balakhera 
+Born: September 28, 1962
+Location: Kota 
 Relationships:
 •	Eldest daughter of: Hamir Mal Gupta and Shanti Devi
 •	Spouse of: Kailash Chand Gupta (Married in 1977)
@@ -57,7 +57,7 @@ Personality: Very adaptive.
 
 ---Person Start--- 
 Name: Kailash Chand Gupta 
-Born: January 17
+Born: January 17, 1955
 Location: Kota 
 Relationships:
 •	Spouse of: Laxmi Gupta
@@ -81,7 +81,7 @@ Personality: Enjoys chilling with friends, very conversant with Indian civil law
 ---Person Start--- 
 Name: Nirmala Khandelwal 
 Born: June 19, 1964
-Location: Balakhera 
+Location: Kota 
 Relationships:
 •	Second daughter of: Hamir Mal Gupta and Shanti Devi
 •	Spouse of: Mahesh Khandelwal (Married in 1984)
@@ -878,6 +878,7 @@ Anniversary: December 9, 2016
 Name: Ina & Ankit
 Anniversary: June 29, 2018
 ---Person Ends---
+
 
 
 
