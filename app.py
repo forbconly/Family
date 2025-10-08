@@ -230,9 +230,9 @@ st.title(lang_text["app_title"])
 
 # Load data and AI model configuration
 family_data = load_family_data()
-# Make the model configurable via environment variables for flexibility
-# Default to the user-specified model if not set
-OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "deepseek/deepseek-chat-v3.1:free")
+# Make the model configurable via environment variables for flexibility.
+# Switched default model to one less likely to have data policy issues on OpenRouter.
+OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "meta-llama/llama-3-70b-instruct")
 
 try:
     # Use st.secrets for deployed apps, fallback to os.environ for local
