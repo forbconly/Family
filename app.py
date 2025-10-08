@@ -232,7 +232,7 @@ st.title(lang_text["app_title"])
 family_data = load_family_data()
 # Make the model configurable via environment variables for flexibility.
 # Switched default model to one less likely to have data policy issues on OpenRouter.
-OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "meta-llama/llama-3-70b-instruct")
+OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "meta-llama/llama-3.3-70b-instruct:free")
 
 try:
     # Use st.secrets for deployed apps, fallback to os.environ for local
@@ -330,4 +330,5 @@ with tab2:
                     st.success(lang_text["trivia_correct"])
                 else:
                     st.error(lang_text["trivia_incorrect"].format(answer=q['correct_answer']))
+
 
