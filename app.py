@@ -230,22 +230,22 @@ st.title(lang_text["app_title"])
 
 # Load data and AI model configuration
 family_data = load_family_data()
-# Make the model configurable via environment variables for flexibility.
-# Switched default model to one less likely to have data policy issues on OpenRouter.
-OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "meta-llama/llama-3.3-70b-instruct:free")
+# MODIFIED: Set model to gpt-4o-mini
+AI_MODEL = os.getenv("OPENAI_MODEL", "gpt-4o-mini")
 
 try:
-    # Use st.secrets for deployed apps, fallback to os.environ for local
-    openrouter_api_key = st.secrets.get("OPENROUTER_API_KEY", os.getenv("OPENROUTER_API_KEY"))
-    if not openrouter_api_key:
+    # MODIFIED: Look for OPENAI_API_KEY
+    openai_api_key = st.secrets.get("OPENAI_API_KEY", os.getenv("OPENAI_API_KEY"))
+    if not openai_api_key:
         raise KeyError
     
+    # MODIFIED: Initialize the default OpenAI client (no base_url)
     client = OpenAI(
-      base_url="https://openrouter.ai/api/v1",
-      api_key=openrouter_api_key,
+      api_key=openai_api_key,
     )
 except KeyError:
-    st.error("OPENROUTER_API_KEY not found! Please set it in your .env file or Streamlit Secrets.")
+    # MODIFIED: Update error message
+    st.error("OPENAI_API_KEY not found! Please set it in your .env file or Streamlit Secrets.")
     st.stop()
 
 # Display the next event message
@@ -299,7 +299,8 @@ Family Knowledge Base:
         
         with st.chat_message("assistant"):
             with st.spinner(lang_text["thinking"]):
-                response = get_ai_response(client, st.session_state.messages, OPENROUTER_MODEL)
+                # MODIFIED: Pass the new AI_MODEL variable
+                response = get_ai_response(client, st.session_state.messages, AI_MODEL)
                 if response:
                     st.markdown(response)
                     st.session_state.messages.append({"role": "assistant", "content": response})
@@ -330,5 +331,3 @@ with tab2:
                     st.success(lang_text["trivia_correct"])
                 else:
                     st.error(lang_text["trivia_incorrect"].format(answer=q['correct_answer']))
-
-
