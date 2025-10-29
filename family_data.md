@@ -798,7 +798,7 @@ Personality: [No specific personality traits mentioned in the original document]
 
 ---Person Start--- 
 Name: Atharva Khandelwal 
-Born: October 23, 2021
+Born: November 23, 2021
 Location: Bangalore 
 Relationships:
 •	Son of: Ina and Ankit Khandelwal
@@ -878,6 +878,7 @@ Anniversary: December 9, 2016
 Name: Ina & Ankit
 Anniversary: June 29, 2018
 ---Person Ends---
+
 
 
 
