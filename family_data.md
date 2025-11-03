@@ -442,7 +442,7 @@ Personality: Very friendly, jolly, and always smiling. Extremely calm and compos
 
 ---Person Start--- 
 Name: Ruhi Khandelwal (alias Baby) 
-Born: December 6, 1986
+Born: November 6, 1986
 Location: Kota 
 Relationships:
 •	Daughter of: Nirmala and Mahesh Khandelwal
@@ -878,6 +878,7 @@ Anniversary: December 9, 2016
 Name: Ina & Ankit
 Anniversary: June 29, 2018
 ---Person Ends---
+
 
 
 
